@@ -1,0 +1,341 @@
+/* Big thanks to /r/TexasRangers for having a great subreddit style. I've learned a lot from you guys,
+hope you don't mind :) - Fustrate */
+
+/* Main page styles
+----------------------------------------------------------------------------- */
+body {
+    background: url(%%DodgersBackground%%) fixed no-repeat center center;
+    }
+
+/* Header Styles
+----------------------------------------------------------------------------- */
+#header #header-bottom-left {
+    background: #000 url(%%DodgerHeader2%%) no-repeat top left;
+    height: 170px;
+    }
+#header {
+    border-bottom: 3px solid #1e90ff;
+    }
+#header-img-a {
+    position: absolute;
+    left: 12px;
+    bottom: 0;
+    }
+.pagename a {
+    color: #fff;
+    position: absolute;
+    bottom: 60px;
+    left: 130px;
+    text-shadow: 0 0 4px black;
+    }
+#sr-header-area {
+    border-bottom: none;
+    background: url(%%translucent%%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 3px 0 !important; /* side padding makes the page too wide */
+    }
+#srDropdown,
+.srdrop {
+    padding-left: 5px !important; /* put the padding here instead! */
+    }
+.sr-bar a,
+#sr-header-area .separator,
+.srSep {
+    color: white !important;
+    }
+.dropdown .title {
+    color: white !important;
+    }
+.dropdown.srdrop .selected {
+    background: none;
+    padding-right: 0;
+    }
+#sr-more-link {
+    display: none;
+    }
+
+/* Header Nav Bar Styles
+----------------------------------------------------------------------------- */
+#header-bottom-left ul.tabmenu {
+    position: absolute;
+    left: 124px;
+    bottom: 12px;
+    }
+#header-bottom-left ul.tabmenu li a {
+    background: #fff !important;
+    color: #1564b2 !important;
+    padding: 3px 10px 4px;
+    margin: 0 2px;
+    font-weight: normal;
+    font-size: 11px;
+    text-align: center;
+    float: left;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    box-shadow: 0 0 5px #333333;
+    }
+#header-bottom-left ul.tabmenu li a:hover {
+    background: #e5e5e5 !important;
+    }
+#header-bottom-left ul.tabmenu li.selected a {
+    background: DodgerBlue !important;
+    color: white !important;
+    font-weight: bold;
+    }
+#header-bottom-right {
+    background: url(%%translucent%%) !important;
+    color: white;
+    }
+#header-bottom-right a {
+    color: #eee !important
+    }
+#header-bottom-right a:hover {
+    color: #fff !important
+    }
+#header-bottom-right .user {
+    margin-left: 0 !important;
+    color: #fff !important
+    }
+#userbarToggle {
+    background: none !important;
+    color: #fff !important;
+    border-right: none !important;
+    height: inherit !important;
+    line-height: inherit !important;
+    position: relative !important;
+    }
+#userbarToggle.userbarShow {
+    left: 0 !important;
+    }
+
+/* Content area
+----------------------------------------------------------------------------- */
+div.entry p.title a.title {
+    color: DodgerBlue;
+    }
+div.entry p.title a.title:visited {
+    color: #005596; /* #1564b2; */
+    }
+
+/* Thumbnails */
+.thumbnail img[src="/static/noimage.png"] {
+    display: none
+    }
+.thumbnail img[src^="http://thumbs.reddit.com/"] {
+    display: block;
+    background-image: none;
+    background-color: transparent
+    }
+#siteTable .thumbnail {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    }
+#siteTable .thumbnail img {
+    border: none
+    }
+.arrow {
+    height: 25px !important;
+    width: 25px !important;
+    background-image: url(%%UpVinnyDownFranknBarry%%) !important;
+    }
+.arrow.up {
+    background-position: 0px 0px;
+    }
+.arrow.upmod {
+    background-position: 0px -25px;
+    }
+.arrow.down {
+    background-position: 0px -100px;
+    }
+.arrow.downmod {
+    background-position: 0px -125px;
+    }
+.midcol[style] {
+    width: 4ex !important;
+    }
+.comment .midcol {
+    width: 25px;
+    }
+.gadget .midcol {
+    width: 25px;
+    margin: 0;
+    }
+.likes div.score.likes {
+    color: #1c73b5;
+    }
+.dislikes div.score.dislikes {
+    color: #ea9a3d;
+    }
+/* Special styles for topics starting with "Game Chat" */
+div.entry p.title a[href*="/game_chat_"].title:link,
+div.entry p.title a[href*="/game_chat_"].title:visited {
+    color: red;
+    font-size: 115%;
+    }
+a[href*="/game_chat_"].thumbnail.self {
+    background: transparent url(%%gamechat%%) no-repeat 0 0;
+    }
+
+/* Sidebar, needs work...
+------------------------------------------------------------------------------ */
+.side {
+    margin-top: 4px;
+    padding-left: 8px;
+    border-left: 1px dashed red;
+    padding-top: 240px;
+    background: url(%%scully%%) no-repeat top center;
+    }
+.side h2 {
+    margin: .5em 0 0;
+    color: white;
+    padding: 5px;
+    border: 1px solid #0e335f;
+    background: #2364af;
+    background-image: -moz-linear-gradient(top, #2364af, #184882);
+    background-image: -ms-linear-gradient(top, #2364af, #184882);
+    background-image: -webkit-linear-gradient(top, #2364af, #184882);
+    background-image: -o-linear-gradient(top, #2364af, #184882);
+    background-image: linear-gradient(top, #2364af, #184882);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    }
+div.titlebox span.number:after {
+    content: " Dodger Fans";
+    }
+div.titlebox span.word {
+    display: none;
+    visibility: hidden;
+    } 
+.side table {
+    border: 3px double #ccc;
+    background-color: #f3f3f3;
+    background-image: -moz-linear-gradient(top, #fff, #f3f3f3);
+    background-image: -ms-linear-gradient(top, #fff, #f3f3f3);
+    background-image: -webkit-linear-gradient(top, #fff, #f3f3f3);
+    background-image: -o-linear-gradient(top, #fff, #f3f3f3);
+    background-image: linear-gradient(top, #fff, #f3f3f3);
+    width: 95%;
+    margin: .5em auto 1em;
+    }
+.side table th {
+    background: #eaeaea;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    }
+
+/* Flair
+------------------------------------------------------------------------------ */
+.flair {
+border: none !important;
+top:20px;
+padding:0px;
+background: url(%%numbers%%);
+display:inline-block;
+}
+.flair-1{ background-position: 0 0; width: 19px; height: 19px; } 
+.flair-10{ background-position: 0 -69px; width: 19px; height: 19px; } 
+.flair-11{ background-position: 0 -138px; width: 19px; height: 19px; } 
+.flair-12{ background-position: 0 -207px; width: 19px; height: 19px; } 
+.flair-14{ background-position: 0 -276px; width: 19px; height: 19px; } 
+.flair-15{ background-position: 0 -345px; width: 19px; height: 19px; } 
+.flair-16{ background-position: 0 -414px; width: 19px; height: 19px; } 
+.flair-17{ background-position: 0 -483px; width: 19px; height: 19px; } 
+.flair-18{ background-position: 0 -552px; width: 19px; height: 19px; } 
+.flair-19{ background-position: 0 -621px; width: 19px; height: 19px; } 
+.flair-2{ background-position: 0 -690px; width: 19px; height: 19px; } 
+.flair-20{ background-position: 0 -759px; width: 19px; height: 19px; } 
+.flair-21{ background-position: 0 -828px; width: 19px; height: 19px; } 
+.flair-22{ background-position: 0 -897px; width: 19px; height: 19px; } 
+.flair-23{ background-position: 0 -966px; width: 19px; height: 19px; } 
+.flair-24{ background-position: 0 -1035px; width: 19px; height: 19px; } 
+.flair-27{ background-position: 0 -1104px; width: 19px; height: 19px; } 
+.flair-29{ background-position: 0 -1173px; width: 19px; height: 19px; } 
+.flair-30{ background-position: 0 -1242px; width: 19px; height: 19px; } 
+.flair-31{ background-position: 0 -1311px; width: 19px; height: 19px; } 
+.flair-32{ background-position: 0 -1380px; width: 19px; height: 19px; } 
+.flair-33{ background-position: 0 -1449px; width: 19px; height: 19px; } 
+.flair-34{ background-position: 0 -1518px; width: 19px; height: 19px; } 
+.flair-35{ background-position: 0 -1587px; width: 19px; height: 19px; } 
+.flair-36{ background-position: 0 -1656px; width: 19px; height: 19px; } 
+.flair-38{ background-position: 0 -1725px; width: 19px; height: 19px; } 
+.flair-39{ background-position: 0 -1794px; width: 19px; height: 19px; } 
+.flair-4{ background-position: 0 -1863px; width: 19px; height: 19px; } 
+.flair-41{ background-position: 0 -1932px; width: 19px; height: 19px; } 
+.flair-42{ background-position: -69px 0; width: 19px; height: 19px; } 
+.flair-43{ background-position: -69px -69px; width: 19px; height: 19px; } 
+.flair-44{ background-position: -69px -138px; width: 19px; height: 19px; } 
+.flair-45{ background-position: -69px -207px; width: 19px; height: 19px; } 
+.flair-48{ background-position: -69px -276px; width: 19px; height: 19px; } 
+.flair-49{ background-position: -69px -345px; width: 19px; height: 19px; } 
+.flair-5{ background-position: -69px -414px; width: 19px; height: 19px; } 
+.flair-50{ background-position: -69px -483px; width: 19px; height: 19px; } 
+.flair-51{ background-position: -69px -552px; width: 19px; height: 19px; } 
+.flair-53{ background-position: -69px -621px; width: 19px; height: 19px; } 
+.flair-54{ background-position: -69px -690px; width: 19px; height: 19px; } 
+.flair-55{ background-position: -69px -759px; width: 19px; height: 19px; } 
+.flair-58{ background-position: -69px -828px; width: 19px; height: 19px; } 
+.flair-59{ background-position: -69px -897px; width: 19px; height: 19px; } 
+.flair-6{ background-position: -69px -966px; width: 19px; height: 19px; } 
+.flair-61{ background-position: -69px -1035px; width: 19px; height: 19px; } 
+.flair-7{ background-position: -69px -1104px; width: 19px; height: 19px; } 
+.flair-74{ background-position: -69px -1173px; width: 19px; height: 19px; } 
+.flair-9{ background-position: -69px -1242px; width: 19px; height: 19px; } 
+.flair-99{ background-position: -69px -1311px; width: 19px; height: 19px; } 
+.flairselector .customizer {
+display: none !important;
+}
+
+/* Reddit Enhancement Suite
+------------------------------------------------------------------------------ */
+#RESShortcutsEditContainer {
+    display: none
+    }
+
+/* Team Logo Images
+------------------------------------------------------------------------------ */
+
+a[href="/ANA"], a[href="/angels"], a[href="/r/angelsbaseball"]:empty, a[href="/ARI"], a[href="/diamondbacks"], a[href="/r/azdiamondbacks"]:empty, a[href="/ATL"], a[href="/braves"], a[href="/r/braves"]:empty, a[href="/BOS"], a[href="/redsox"], a[href="/r/redsox"]:empty, a[href="/CHC"], a[href="/cubs"], a[href="/r/cubs"]:empty, a[href="/CIN"], a[href="/reds"], a[href="/r/reds"]:empty, a[href="/CLE"], a[href="/indians"], a[href="/r/wahoostipi"]:empty, a[href="/COL"], a[href="/rockies"], a[href="/r/coloradorockies"]:empty, a[href="/CHW"], a[href="/whitesox"], a[href="/r/whitesox"]:empty, a[href="/DET"], a[href="/tigers"], a[href="/r/motorcitykitties"]:empty, a[href="/MIA"], a[href="/marlins"], a[href="/r/letsgofish"]:empty, a[href="/HOU"], a[href="/astros"], a[href="/r/astros"]:empty, a[href="/KCR"], a[href="/royals"], a[href="/r/kcroyals"]:empty, a[href="/LAD"], a[href="/dodgers"], a[href="/r/dodgers"]:empty, a[href="/MIL"], a[href="/brewers"], a[href="/r/brewers"]:empty, a[href="/MIN"], a[href="/twins"], a[href="/r/minnesotatwins"]:empty, a[href="/NYM"], a[href="/mets"], a[href="/r/newyorkmets"]:empty, a[href="/NYY"], a[href="/yankees"], a[href="/r/yankees"]:empty, a[href="/OAK"], a[href="/athletics"], a[href="/r/oaklandathletics"]:empty, a[href="/PHI"], a[href="/phillies"], a[href="/r/phillies"]:empty, a[href="/PIT"], a[href="/pirates"], a[href="/r/buccos"]:empty, a[href="/SDP"], a[href="/padres"], a[href="/r/padres"]:empty, a[href="/SEA"], a[href="/mariners"], a[href="/r/mariners"]:empty, a[href="/SFG"], a[href="/giants"], a[href="/r/sfgiants"]:empty, a[href="/LOL"], a[href="/STL"], a[href="/cardinals"], a[href="/r/cardinals"]:empty, a[href="/TBR"], a[href="/rays"], a[href="/r/tampabayrays"]:empty, a[href="/TEX"], a[href="/rangers"], a[href="/r/texasrangers"]:empty, a[href="/TOR"], a[href="/bluejays"], a[href="/r/torontobluejays"]:empty, a[href="/WSH"], a[href="/nationals"], a[href="/r/nationals"]:empty, a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty, a[href="/LOL"] {
+    display: inline-block;
+    font-size: 0px;
+    width: 21px;
+    height: 21px;
+    background-image: url(%%TeamLogos%%);
+    vertical-align: baseline;
+    }
+a[href="/ANA"], a[href="/angels"], a[href="/r/angelsbaseball"]:empty {background-position: 0 0;}
+a[href="/ARI"], a[href="/diamondbacks"], a[href="/r/azdiamondbacks"]:empty {background-position: 0 -21px;}
+a[href="/ATL"], a[href="/braves"], a[href="/r/braves"]:empty {background-position: 0 -42px;}
+a[href="/BOS"], a[href="/redsox"], a[href="/r/redsox"]:empty {background-position: 0 -63px;}
+a[href="/CHC"], a[href="/cubs"], a[href="/r/cubs"]:empty {background-position: 0 -84px;}
+a[href="/CIN"], a[href="/reds"], a[href="/r/reds"]:empty {background-position: 0 -105px;}
+a[href="/CLE"], a[href="/indians"], a[href="/r/wahoostipi"]:empty {background-position: 0 -126px;}
+a[href="/COL"], a[href="/rockies"], a[href="/r/coloradorockies"]:empty {background-position: 0 -147px;}
+a[href="/CHW"], a[href="/whitesox"], a[href="/r/whitesox"]:empty {background-position: 0 -168px;}
+a[href="/DET"], a[href="/tigers"], a[href="/r/motorcitykitties"]:empty {background-position: 0 -189px;}
+a[href="/MIA"], a[href="/marlins"], a[href="/r/letsgofish"]:empty {background-position: 0 -210px;}
+a[href="/HOU"], a[href="/astros"], a[href="/r/astros"]:empty {background-position: 0 -231px;}
+a[href="/KCR"], a[href="/royals"], a[href="/r/kcroyals"]:empty {background-position: 0 -252px;}
+a[href="/LAD"], a[href="/dodgers"], a[href="/r/dodgers"]:empty {background-position: 0 -273px;}
+a[href="/MIL"], a[href="/brewers"], a[href="/r/brewers"]:empty {background-position: 0 -294px;}
+a[href="/MIN"], a[href="/twins"], a[href="/r/minnesotatwins"]:empty {background-position: 0 -315px;}
+a[href="/NYM"], a[href="/mets"], a[href="/r/newyorkmets"]:empty {background-position: 0 -336px;}
+a[href="/NYY"], a[href="/yankees"], a[href="/r/yankees"]:empty {background-position: 0 -357px;}
+a[href="/OAK"], a[href="/athletics"], a[href="/r/oaklandathletics"]:empty {background-position: 0 -378px;}
+a[href="/PHI"], a[href="/phillies"], a[href="/r/phillies"]:empty {background-position: 0 -399px;}
+a[href="/PIT"], a[href="/pirates"], a[href="/r/buccos"]:empty {background-position: 0 -420px;}
+a[href="/SDP"], a[href="/padres"], a[href="/r/padres"]:empty {background-position: 0 -441px;}
+a[href="/SEA"], a[href="/mariners"], a[href="/r/mariners"]:empty {background-position: 0 -462px;}
+a[href="/SFG"], a[href="/giants"], a[href="/r/sfgiants"]:empty, a[href="/LOL"] {background-position: 0 -483px;}
+a[href="/STL"], a[href="/cardinals"], a[href="/r/cardinals"]:empty {background-position: 0 -504px;}
+a[href="/TBR"], a[href="/rays"], a[href="/r/tampabayrays"]:empty {background-position: 0 -525px;}
+a[href="/TEX"], a[href="/rangers"], a[href="/r/texasrangers"]:empty {background-position: 0 -546px;}
+a[href="/TOR"], a[href="/bluejays"], a[href="/r/torontobluejays"]:empty {background-position: 0 -567px;}
+a[href="/WSH"], a[href="/nationals"], a[href="/r/nationals"]:empty {background-position: 0 -588px;}
+a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty {background-position: 0 -609px;}

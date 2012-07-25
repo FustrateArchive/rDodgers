@@ -244,9 +244,6 @@ div.titlebox span.word {
 
 /* Flair
 ------------------------------------------------------------------------------ */
-.flairselector .customizer {
-    display: none !important;
-    }
 .flairselector .author {
     display: none;
     }
@@ -258,71 +255,88 @@ div.titlebox span.word {
 	font-size: 10px;
 	height: 32px;
 	line-height: 32px;
+	border-radius: 0;
+	}
+.flairselector .flair:empty {
+	border-radius: 0;
 	}
 .flairselector .flairremove {
 	float: right;
 	}
 .flair {
-    border: none !important;
     top: 20px;
-    padding: 0px;
+    height: 19px;
     background: url(%%numbers%%);
     display: inline-block;
     background-repeat: no-repeat;
+	font-size: 10px;
+	padding: 0 6px 0 23px;
+	line-height: 19px;
+	background-color: #fafafa;
+	border-radius: 4px;
+	color: #888;
+	border: 1px solid #eaeaea;
     }
 .link .flair {
     font-size: 0;
     }
+.flair:empty {
+	background-color: transparent;
+	padding: 0;
+	width: 19px;
+	border: none !important;
+	border-radius: 10px;
+	}
 
-.flair-1 {background-position: 0 0; width: 19px; height: 19px;} 
-.flair-10 {background-position: 0 -69px; width: 19px; height: 19px;} 
-.flair-11 {background-position: 0 -138px; width: 19px; height: 19px;} 
-.flair-12 {background-position: 0 -207px; width: 19px; height: 19px;} 
-.flair-14 {background-position: 0 -276px; width: 19px; height: 19px;} 
-.flair-15 {background-position: 0 -345px; width: 19px; height: 19px;} 
-.flair-16 {background-position: 0 -414px; width: 19px; height: 19px;} 
-.flair-17 {background-position: 0 -483px; width: 19px; height: 19px;} 
-.flair-18 {background-position: 0 -552px; width: 19px; height: 19px;} 
-.flair-19 {background-position: 0 -621px; width: 19px; height: 19px;} 
-.flair-2 {background-position: 0 -690px; width: 19px; height: 19px;} 
-.flair-20 {background-position: 0 -759px; width: 19px; height: 19px;} 
-.flair-21 {background-position: 0 -828px; width: 19px; height: 19px;} 
-.flair-22 {background-position: 0 -897px; width: 19px; height: 19px;} 
-.flair-23 {background-position: 0 -966px; width: 19px; height: 19px;} 
-.flair-24 {background-position: 0 -1035px; width: 19px; height: 19px;} 
-.flair-27 {background-position: 0 -1104px; width: 19px; height: 19px;} 
-.flair-29 {background-position: 0 -1173px; width: 19px; height: 19px;} 
-.flair-30 {background-position: 0 -1242px; width: 19px; height: 19px;} 
-.flair-31 {background-position: 0 -1311px; width: 19px; height: 19px;} 
-.flair-32 {background-position: 0 -1380px; width: 19px; height: 19px;} 
-.flair-33 {background-position: 0 -1449px; width: 19px; height: 19px;} 
-.flair-34 {background-position: 0 -1518px; width: 19px; height: 19px;} 
-.flair-35 {background-position: 0 -1587px; width: 19px; height: 19px;} 
-.flair-36 {background-position: 0 -1656px; width: 19px; height: 19px;} 
-.flair-38 {background-position: 0 -1725px; width: 19px; height: 19px;} 
-.flair-39 {background-position: 0 -1794px; width: 19px; height: 19px;} 
-.flair-4 {background-position: 0 -1863px; width: 19px; height: 19px;} 
-.flair-41 {background-position: 0 -1932px; width: 19px; height: 19px;} 
-.flair-42 {background-position: -69px 0; width: 19px; height: 19px;} 
-.flair-43 {background-position: -69px -69px; width: 19px; height: 19px;} 
-.flair-44 {background-position: -69px -138px; width: 19px; height: 19px;} 
-.flair-45 {background-position: -69px -207px; width: 19px; height: 19px;} 
-.flair-48 {background-position: -69px -276px; width: 19px; height: 19px;} 
-.flair-49 {background-position: -69px -345px; width: 19px; height: 19px;} 
-.flair-5 {background-position: -69px -414px; width: 19px; height: 19px;} 
-.flair-50 {background-position: -69px -483px; width: 19px; height: 19px;} 
-.flair-51 {background-position: -69px -552px; width: 19px; height: 19px;} 
-.flair-53 {background-position: -69px -621px; width: 19px; height: 19px;} 
-.flair-54 {background-position: -69px -690px; width: 19px; height: 19px;} 
-.flair-55 {background-position: -69px -759px; width: 19px; height: 19px;} 
-.flair-58 {background-position: -69px -828px; width: 19px; height: 19px;} 
-.flair-59 {background-position: -69px -897px; width: 19px; height: 19px;} 
-.flair-6 {background-position: -69px -966px; width: 19px; height: 19px;} 
-.flair-61 {background-position: -69px -1035px; width: 19px; height: 19px;} 
-.flair-7 {background-position: -69px -1104px; width: 19px; height: 19px;} 
-.flair-74 {background-position: -69px -1173px; width: 19px; height: 19px;} 
-.flair-9 {background-position: -69px -1242px; width: 19px; height: 19px;} 
-.flair-99 {background-position: -69px -1311px; width: 19px; height: 19px;} 
+.flair-1 {background-position: 0 0;} 
+.flair-10 {background-position: 0 -69px;} 
+.flair-11 {background-position: 0 -138px;} 
+.flair-12 {background-position: 0 -207px;} 
+.flair-14 {background-position: 0 -276px;} 
+.flair-15 {background-position: 0 -345px;} 
+.flair-16 {background-position: 0 -414px;} 
+.flair-17 {background-position: 0 -483px;} 
+.flair-18 {background-position: 0 -552px;} 
+.flair-19 {background-position: 0 -621px;} 
+.flair-2 {background-position: 0 -690px;} 
+.flair-20 {background-position: 0 -759px;} 
+.flair-21 {background-position: 0 -828px;} 
+.flair-22 {background-position: 0 -897px;} 
+.flair-23 {background-position: 0 -966px;} 
+.flair-24 {background-position: 0 -1035px;} 
+.flair-27 {background-position: 0 -1104px;} 
+.flair-29 {background-position: 0 -1173px;} 
+.flair-30 {background-position: 0 -1242px;} 
+.flair-31 {background-position: 0 -1311px;} 
+.flair-32 {background-position: 0 -1380px;} 
+.flair-33 {background-position: 0 -1449px;} 
+.flair-34 {background-position: 0 -1518px;} 
+.flair-35 {background-position: 0 -1587px;} 
+.flair-36 {background-position: 0 -1656px;} 
+.flair-38 {background-position: 0 -1725px;} 
+.flair-39 {background-position: 0 -1794px;} 
+.flair-4 {background-position: 0 -1863px;} 
+.flair-41 {background-position: 0 -1932px;} 
+.flair-42 {background-position: -69px 0;} 
+.flair-43 {background-position: -69px -69px;} 
+.flair-44 {background-position: -69px -138px;} 
+.flair-45 {background-position: -69px -207px;} 
+.flair-48 {background-position: -69px -276px;} 
+.flair-49 {background-position: -69px -345px;} 
+.flair-5 {background-position: -69px -414px;} 
+.flair-50 {background-position: -69px -483px;} 
+.flair-51 {background-position: -69px -552px;} 
+.flair-53 {background-position: -69px -621px;} 
+.flair-54 {background-position: -69px -690px;} 
+.flair-55 {background-position: -69px -759px;} 
+.flair-58 {background-position: -69px -828px;} 
+.flair-59 {background-position: -69px -897px;} 
+.flair-6 {background-position: -69px -966px;} 
+.flair-61 {background-position: -69px -1035px;} 
+.flair-7 {background-position: -69px -1104px;} 
+.flair-74 {background-position: -69px -1173px;} 
+.flair-9 {background-position: -69px -1242px;} 
+.flair-99 {background-position: -69px -1311px;} 
 
 .flair-Kemp, .flair-Ethier, .flair-Kershaw, .flair-Gordon, .flair-AJEllis, .flair-Gwynn, .flair-Capuano, .flair-Loney, .flair-Jansen, .flair-Giants, .flair-Abreu, .flair-Belisario, .flair-Billingsley, .flair-MEllis, .flair-Guerra, .flair-Harang, .flair-Hairston, .flair-Treanor, .flair-Lindblom, .flair-Rivera, .flair-Mattingly, .flair-Scully, .flair-Kennedy, .flair-Coffey, .flair-Eovaldi, .flair-Lilly, .flair-Cruz, .flair-Elbert, .flair-Robinson, .flair-Asimov, .flair-Fife, .flair-Guerrier, .flair-MacDougal, .flair-Sellers, .flair-VanSlyke, .flair-Wall, .flair-Wright, .flair-Tolleson, .flair-Ramirez {
     background-image: url(%%Face-Flair%%);
@@ -331,6 +345,11 @@ div.titlebox span.word {
     margin-right: 2px;
     vertical-align: bottom;
     width: 24px;
+    padding: 0px;
+    border: none !important;
+    background-color: transparent;
+    border: none !important;
+    border-radius: 0;
     }
 a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[href="/AJEllis"], a[href="/Gwynn"], a[href="/Capuano"], a[href="/Loney"], a[href="/Jansen"], a[href="/Uribe"], a[href="/Abreu"], a[href="/Belisario"], a[href="/Billingsley"], a[href="/MEllis"], a[href="/Guerra"], a[href="/Harang"], a[href="/Hairston"], a[href="/Treanor"], a[href="/Lindblom"], a[href="/Rivera"], a[href="/Mattingly"], a[href="/Scully"], a[href="/Kennedy"], a[href="/Coffey"], a[href="/Eovaldi"], a[href="/Lilly"], a[href="/Cruz"], a[href="/Elbert"], a[href="/Robinson"], a[href="/Fife"], a[href="/Guerrier"], a[href="/MacDougal"], a[href="/Sellers"], a[href="/VanSlyke"], a[href="/Wall"], a[href="/Wright"], a[href="/Tolleson"], a[href="/Ramirez"] {
     background-image: url(%%Face-Flair%%);

@@ -250,6 +250,18 @@ div.titlebox span.word {
 .flairselector .author {
     display: none;
     }
+.flairsample-left {
+	text-align: left !important;
+	}
+.flairselector .flair {
+	padding-left: 30px;
+	font-size: 10px;
+	height: 32px;
+	line-height: 32px;
+	}
+.flairselector .flairremove {
+	float: right;
+	}
 .flair {
     border: none !important;
     top: 20px;

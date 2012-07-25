@@ -4,249 +4,249 @@ hope you don't mind :) - Fustrate */
 /* Main page styles
 ----------------------------------------------------------------------------- */
 body {
-    background: url(%%DodgersBackground%%) fixed no-repeat center center;
-    }
+	background: url(%%DodgersBackground%%) fixed no-repeat center center;
+	}
 
 /* Header Styles
 ----------------------------------------------------------------------------- */
 #header #header-bottom-left {
-    background: #000 url(%%DodgerHeader2%%) no-repeat top left;
-    height: 170px;
-    }
+	background: #000 url(%%DodgerHeader2%%) no-repeat top left;
+	height: 170px;
+	}
 #header {
-    border-bottom: 3px solid #1e90ff;
-    }
+	border-bottom: 3px solid #1e90ff;
+	}
 #header-img-a {
-    bottom: 0;
-    left: 12px;
-    position: absolute;
-    }
+	bottom: 0;
+	left: 12px;
+	position: absolute;
+	}
 .pagename a {
-    bottom: 60px;
-    color: #fff;
-    left: 130px;
-    position: absolute;
-    text-shadow: 0 0 4px black;
-    }
+	bottom: 60px;
+	color: #fff;
+	left: 130px;
+	position: absolute;
+	text-shadow: 0 0 4px black;
+	}
 #sr-header-area {
-    background: url(%%translucent%%);
-    border-bottom: none;
-    left: 0;
-    padding: 3px 0 !important; /* side padding makes the page too wide */
-    position: absolute;
-    top: 0;
-    width: 100%;
-    }
+	background: url(%%translucent%%);
+	border-bottom: none;
+	left: 0;
+	padding: 3px 0 !important; /* side padding makes the page too wide */
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
 #srDropdown,
 .srdrop {
-    padding-left: 5px !important; /* put the padding here instead! */
-    }
+	padding-left: 5px !important; /* put the padding here instead! */
+	}
 .sr-bar a,
 #sr-header-area .separator,
 .srSep {
-    color: white !important;
-    }
+	color: white !important;
+	}
 .dropdown .title {
-    color: white !important;
-    }
+	color: white !important;
+	}
 .dropdown.srdrop .selected {
-    background: none;
-    padding-right: 0;
-    }
+	background: none;
+	padding-right: 0;
+	}
 #sr-more-link {
-    display: none;
-    }
+	display: none;
+	}
 
 /* Header Nav Bar Styles
 ----------------------------------------------------------------------------- */
 #header-bottom-left ul.tabmenu {
-    bottom: 12px;
-    left: 124px;
-    position: absolute;
-    }
+	bottom: 12px;
+	left: 124px;
+	position: absolute;
+	}
 #header-bottom-left ul.tabmenu li a {
-    background: #fff !important;
-    border: 1px solid #555;
-    box-shadow: 0 0 5px #333333;
-    color: #1564b2 !important;
-    float: left;
-    font-size: 11px;
-    font-weight: normal;
-    margin: 0 2px;
-    padding: 3px 10px 4px;
-    text-align: center;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    }
+	background: #fff !important;
+	border: 1px solid #555;
+	box-shadow: 0 0 5px #333333;
+	color: #1564b2 !important;
+	float: left;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0 2px;
+	padding: 3px 10px 4px;
+	text-align: center;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	}
 #header-bottom-left ul.tabmenu li a:hover {
-    background: #e5e5e5 !important;
-    }
+	background: #e5e5e5 !important;
+	}
 #header-bottom-left ul.tabmenu li.selected a {
-    background: DodgerBlue !important;
-    color: white !important;
-    font-weight: bold;
-    }
+	background: DodgerBlue !important;
+	color: white !important;
+	font-weight: bold;
+	}
 #header-bottom-right {
-    background: url(%%translucent%%) !important;
-    color: white;
-    }
+	background: url(%%translucent%%) !important;
+	color: white;
+	}
 #header-bottom-right a {
-    color: #eee !important;
-    }
+	color: #eee !important;
+	}
 #header-bottom-right a:hover {
-    color: #fff !important;
-    }
+	color: #fff !important;
+	}
 #header-bottom-right .user {
-    color: #fff !important;
-    margin-left: 0 !important;
-    }
+	color: #fff !important;
+	margin-left: 0 !important;
+	}
 #userbarToggle {
-    background: none !important;
-    border-right: none !important;
-    color: #fff !important;
-    height: inherit !important;
-    line-height: inherit !important;
-    position: relative !important;
-    }
+	background: none !important;
+	border-right: none !important;
+	color: #fff !important;
+	height: inherit !important;
+	line-height: inherit !important;
+	position: relative !important;
+	}
 #userbarToggle.userbarShow {
-    left: 0 !important;
-    }
+	left: 0 !important;
+	}
 
 /* Content area
 ----------------------------------------------------------------------------- */
 div.entry p.title a.title {
-    color: DodgerBlue;
-    }
+	color: DodgerBlue;
+	}
 div.entry p.title a.title:visited {
-    color: #005596; /* #1564b2; */
-    }
+	color: #005596; /* #1564b2; */
+	}
 
 /* Thumbnails */
 .thumbnail img[src="/static/noimage.png"] {
-    display: none
-    }
+	display: none
+	}
 .thumbnail img[src^="http://thumbs.reddit.com/"] {
-    background-color: transparent;
-    background-image: none;
-    display: block;
-    }
+	background-color: transparent;
+	background-image: none;
+	display: block;
+	}
 #siteTable .thumbnail {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    }
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	}
 #siteTable .thumbnail img {
-    border: none;
-    }
+	border: none;
+	}
 .arrow {
-    background-image: url(%%UpVinnyDownFranknBarry%%) !important;
-    height: 25px !important;
-    width: 25px !important;
-    }
+	background-image: url(%%UpVinnyDownFranknBarry%%) !important;
+	height: 25px !important;
+	width: 25px !important;
+	}
 .arrow.up {
-    background-position: 0px 0px;
-    }
+	background-position: 0px 0px;
+	}
 .arrow.upmod {
-    background-position: 0px -25px;
-    }
+	background-position: 0px -25px;
+	}
 .arrow.down {
-    background-position: 0px -100px;
-    }
+	background-position: 0px -100px;
+	}
 .arrow.downmod {
-    background-position: 0px -125px;
-    }
+	background-position: 0px -125px;
+	}
 .midcol[style] {
-    width: 4ex !important;
-    }
+	width: 4ex !important;
+	}
 .comment .midcol {
-    width: 25px;
-    }
+	width: 25px;
+	}
 .gadget .midcol {
-    width: 25px;
-    margin: 0;  
-    }
+	width: 25px;
+	margin: 0;  
+	}
 .likes div.score.likes {
-    color: #1c73b5;
-    }
+	color: #1c73b5;
+	}
 .dislikes div.score.dislikes {
-    color: #ea9a3d;
-    }
+	color: #ea9a3d;
+	}
 /* Special styles for topics starting with "Game Chat" */
 div.entry p.title a[href*="/game_chat_"].title:link,
 div.entry p.title a[href*="/game_chat_"].title:visited {
-    color: red;
-    font-size: 115%;
-    }
+	color: red;
+	font-size: 115%;
+	}
 a[href*="/game_chat_"].thumbnail.self {
-    background: transparent url(%%gamechat%%) no-repeat 0 0;
-    }
+	background: transparent url(%%gamechat%%) no-repeat 0 0;
+	}
 
 /* Sidebar, needs work...
 ------------------------------------------------------------------------------ */
 .side {
-    margin-top: 4px;
-    padding-left: 8px;
-    border-left: 1px dashed red;
-    padding-top: 240px;
-    background: url(%%scully%%) no-repeat top center;
-    }
+	margin-top: 4px;
+	padding-left: 8px;
+	border-left: 1px dashed red;
+	padding-top: 240px;
+	background: url(%%scully%%) no-repeat top center;
+	}
 .side h2 {
-    margin: .5em 0 0;
-    color: white;
-    padding: 5px;
-    border: 1px solid #0e335f;
-    border-top-color: #266bd3;
-    background-image: -moz-linear-gradient(top, #2364af, #184882);
-    background-image: -ms-linear-gradient(top, #2364af, #184882);
-    background-image: -webkit-linear-gradient(top, #2364af, #184882);
-    background-image: -o-linear-gradient(top, #2364af, #184882);
-    background-image: linear-gradient(top, #2364af, #184882);
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    }
+	margin: .5em 0 0;
+	color: white;
+	padding: 5px;
+	border: 1px solid #0e335f;
+	border-top-color: #266bd3;
+	background-image: -moz-linear-gradient(top, #2364af, #184882);
+	background-image: -ms-linear-gradient(top, #2364af, #184882);
+	background-image: -webkit-linear-gradient(top, #2364af, #184882);
+	background-image: -o-linear-gradient(top, #2364af, #184882);
+	background-image: linear-gradient(top, #2364af, #184882);
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	}
 div.titlebox span.number:after {
-    content: " Dodger Fans";
-    }
+	content: " Dodger Fans";
+	}
 div.titlebox span.word {
-    display: none;
-    visibility: hidden;
-    } 
+	display: none;
+	visibility: hidden;
+	} 
 .side table,
 .entry table {
-    border: 3px double #ccc;
-    background-color: #f3f3f3;
-    background-image: -moz-linear-gradient(top, #fff, #f3f3f3);
-    background-image: -ms-linear-gradient(top, #fff, #f3f3f3);
-    background-image: -webkit-linear-gradient(top, #fff, #f3f3f3);
-    background-image: -o-linear-gradient(top, #fff, #f3f3f3);
-    background-image: linear-gradient(top, #fff, #f3f3f3);
-    width: 95%;
-    margin: .5em auto 1em;
-    }
+	border: 3px double #ccc;
+	background-color: #f3f3f3;
+	background-image: -moz-linear-gradient(top, #fff, #f3f3f3);
+	background-image: -ms-linear-gradient(top, #fff, #f3f3f3);
+	background-image: -webkit-linear-gradient(top, #fff, #f3f3f3);
+	background-image: -o-linear-gradient(top, #fff, #f3f3f3);
+	background-image: linear-gradient(top, #fff, #f3f3f3);
+	width: 95%;
+	margin: .5em auto 1em;
+	}
 .entry table {
-    width: auto;
-    margin: .5em;
-    }
+	width: auto;
+	margin: .5em;
+	}
 .side table th,
 .entry table th {
-    background: #eaeaea;
-    border-right: 1px solid #ccc;
-    text-align: center;
-    }
+	background: #eaeaea;
+	border-right: 1px solid #ccc;
+	text-align: center;
+	}
 .entry table th:empty {
-    padding: 0
-    }
+	padding: 0
+	}
 .entry table td {
-    padding: .5em;
-    }
+	padding: .5em;
+	}
 
 /* Flair
 ------------------------------------------------------------------------------ */
 .flairselector .author {
-    display: none;
-    }
+	display: none;
+	}
 .flairsample-left {
 	text-align: left !important;
 	}
@@ -264,11 +264,11 @@ div.titlebox span.word {
 	float: right;
 	}
 .flair {
-    top: 20px;
-    height: 19px;
-    background: url(%%numbers%%);
-    display: inline-block;
-    background-repeat: no-repeat;
+	top: 20px;
+	height: 19px;
+	background: url(%%numbers%%);
+	display: inline-block;
+	background-repeat: no-repeat;
 	font-size: 10px;
 	padding: 0 6px 0 23px;
 	line-height: 19px;
@@ -276,13 +276,13 @@ div.titlebox span.word {
 	border-radius: 4px;
 	color: #888;
 	border: 1px solid #eaeaea;
-    }
+	}
 .link .flair {
-    font-size: 0;
-    background-color: transparent;
-    border: 0;
-    border-radius: 0;
-    }
+	font-size: 0;
+	background-color: transparent;
+	border: 0;
+	border-radius: 0;
+	}
 .flair:empty {
 	background-color: transparent;
 	padding: 0;
@@ -342,26 +342,26 @@ div.titlebox span.word {
 .flair-99 {background-position: -69px -1311px;} 
 
 .flair-Kemp, .flair-Ethier, .flair-Kershaw, .flair-Gordon, .flair-AJEllis, .flair-Gwynn, .flair-Capuano, .flair-Loney, .flair-Jansen, .flair-Giants, .flair-Abreu, .flair-Belisario, .flair-Billingsley, .flair-MEllis, .flair-Guerra, .flair-Harang, .flair-Hairston, .flair-Treanor, .flair-Lindblom, .flair-Rivera, .flair-Mattingly, .flair-Scully, .flair-Kennedy, .flair-Coffey, .flair-Eovaldi, .flair-Lilly, .flair-Cruz, .flair-Elbert, .flair-Robinson, .flair-Asimov, .flair-Fife, .flair-Guerrier, .flair-MacDougal, .flair-Sellers, .flair-VanSlyke, .flair-Wall, .flair-Wright, .flair-Tolleson, .flair-Ramirez {
-    background-image: url(%%Face-Flair%%);
-    font-size: 0px;
-    height: 30px;
-    margin-right: 2px;
-    vertical-align: bottom;
-    width: 24px;
-    padding: 0px;
-    border: none !important;
-    background-color: transparent;
-    border: none !important;
-    border-radius: 0;
-    }
+	background-image: url(%%Face-Flair%%);
+	font-size: 0px;
+	height: 30px;
+	margin-right: 2px;
+	vertical-align: bottom;
+	width: 24px;
+	padding: 0px;
+	border: none !important;
+	background-color: transparent;
+	border: none !important;
+	border-radius: 0;
+	}
 a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[href="/AJEllis"], a[href="/Gwynn"], a[href="/Capuano"], a[href="/Loney"], a[href="/Jansen"], a[href="/Uribe"], a[href="/Abreu"], a[href="/Belisario"], a[href="/Billingsley"], a[href="/MEllis"], a[href="/Guerra"], a[href="/Harang"], a[href="/Hairston"], a[href="/Treanor"], a[href="/Lindblom"], a[href="/Rivera"], a[href="/Mattingly"], a[href="/Scully"], a[href="/Kennedy"], a[href="/Coffey"], a[href="/Eovaldi"], a[href="/Lilly"], a[href="/Cruz"], a[href="/Elbert"], a[href="/Robinson"], a[href="/Fife"], a[href="/Guerrier"], a[href="/MacDougal"], a[href="/Sellers"], a[href="/VanSlyke"], a[href="/Wall"], a[href="/Wright"], a[href="/Tolleson"], a[href="/Ramirez"] {
-    background-image: url(%%Face-Flair%%);
-    display: inline-block;
-    font-size: 0px;
-    height: 30px;
-    vertical-align: middle;
-    width: 24px;
-    }
+	background-image: url(%%Face-Flair%%);
+	display: inline-block;
+	font-size: 0px;
+	height: 30px;
+	vertical-align: middle;
+	width: 24px;
+	}
 .flair-Kemp, a[href="/Kemp"] {background-position: 0 0;}
 .flair-Ethier, a[href="/Ethier"] {background-position: 0 -50px;}
 .flair-Kershaw, a[href="/Kershaw"] {background-position: 0 -100px;}
@@ -405,20 +405,20 @@ a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[hre
 /* Reddit Enhancement Suite
 ------------------------------------------------------------------------------ */
 #RESShortcutsEditContainer {
-    display: none
-    }
+	display: none
+	}
 
 /* Team Logo Images
 ------------------------------------------------------------------------------ */
 
 a[href="/ANA"], a[href="/angels"], a[href="/r/angelsbaseball"]:empty, a[href="/ARI"], a[href="/diamondbacks"], a[href="/r/azdiamondbacks"]:empty, a[href="/ATL"], a[href="/braves"], a[href="/r/braves"]:empty, a[href="/BOS"], a[href="/redsox"], a[href="/r/redsox"]:empty, a[href="/CHC"], a[href="/cubs"], a[href="/r/cubs"]:empty, a[href="/CIN"], a[href="/reds"], a[href="/r/reds"]:empty, a[href="/CLE"], a[href="/indians"], a[href="/r/wahoostipi"]:empty, a[href="/COL"], a[href="/rockies"], a[href="/r/coloradorockies"]:empty, a[href="/CHW"], a[href="/whitesox"], a[href="/r/whitesox"]:empty, a[href="/DET"], a[href="/tigers"], a[href="/r/motorcitykitties"]:empty, a[href="/MIA"], a[href="/marlins"], a[href="/r/letsgofish"]:empty, a[href="/HOU"], a[href="/astros"], a[href="/r/astros"]:empty, a[href="/KCR"], a[href="/royals"], a[href="/r/kcroyals"]:empty, a[href="/LAD"], a[href="/dodgers"], a[href="/r/dodgers"]:empty, a[href="/MIL"], a[href="/brewers"], a[href="/r/brewers"]:empty, a[href="/MIN"], a[href="/twins"], a[href="/r/minnesotatwins"]:empty, a[href="/NYM"], a[href="/mets"], a[href="/r/newyorkmets"]:empty, a[href="/NYY"], a[href="/yankees"], a[href="/r/yankees"]:empty, a[href="/OAK"], a[href="/athletics"], a[href="/r/oaklandathletics"]:empty, a[href="/PHI"], a[href="/phillies"], a[href="/r/phillies"]:empty, a[href="/PIT"], a[href="/pirates"], a[href="/r/buccos"]:empty, a[href="/SDP"], a[href="/padres"], a[href="/r/padres"]:empty, a[href="/SEA"], a[href="/mariners"], a[href="/r/mariners"]:empty, a[href="/SFG"], a[href="/giants"], a[href="/r/sfgiants"]:empty, a[href="/LOL"], a[href="/STL"], a[href="/cardinals"], a[href="/r/cardinals"]:empty, a[href="/TBR"], a[href="/rays"], a[href="/r/tampabayrays"]:empty, a[href="/TEX"], a[href="/rangers"], a[href="/r/texasrangers"]:empty, a[href="/TOR"], a[href="/bluejays"], a[href="/r/torontobluejays"]:empty, a[href="/WSH"], a[href="/nationals"], a[href="/r/nationals"]:empty, a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty, a[href="/LOL"] {
-    display: inline-block;
-    font-size: 0px;
-    width: 21px;
-    height: 21px;
-    background-image: url(%%TeamLogos%%);
-    vertical-align: middle;
-    }
+	display: inline-block;
+	font-size: 0px;
+	width: 21px;
+	height: 21px;
+	background-image: url(%%TeamLogos%%);
+	vertical-align: middle;
+	}
 a[href="/ANA"], a[href="/angels"], a[href="/r/angelsbaseball"]:empty {background-position: 0 0;}
 a[href="/ARI"], a[href="/diamondbacks"], a[href="/r/azdiamondbacks"]:empty {background-position: 0 -21px;}
 a[href="/ATL"], a[href="/braves"], a[href="/r/braves"]:empty {background-position: 0 -42px;}

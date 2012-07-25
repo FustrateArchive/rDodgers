@@ -247,13 +247,16 @@ div.titlebox span.word {
 .flairselector .customizer {
     display: none !important;
     }
+.flairselector .author {
+    display: none;
+    }
 .flair {
     border: none !important;
     top: 20px;
     padding: 0px;
     background: url(%%numbers%%);
     display: inline-block;
-    background-position: 100px 100px;
+    background-repeat: no-repeat;
     }
 .link .flair {
     font-size: 0;
@@ -309,60 +312,61 @@ div.titlebox span.word {
 .flair-9 {background-position: -69px -1242px; width: 19px; height: 19px;} 
 .flair-99 {background-position: -69px -1311px; width: 19px; height: 19px;} 
 
-.flair-Kemp, .flair-Ethier, .flair-Kershaw, .flair-Gordon, .flair-AJEllis, .flair-Gwynn, .flair-Capuano, .flair-Loney, .flair-Jansen, .flair-Giants, .flair-Abreu, .flair-Belisario, .flair-Billingsley, .flair-MEllis, .flair-Guerra, .flair-Harang, .flair-Hairston, .flair-Treanor, .flair-Lindblom, .flair-Rivera, .flair-Mattingly, .flair-Scully, .flair-Kennedy, .flair-Coffey, .flair-Eovaldi, .flair-Lilly, .flair-Cruz, .flair-Elbert, .flair-Robinson, .flair-Asimov, .flair-Fife, .flair-Guerrier, .flair-MacDougal, .flair-Sellers, .flair-VanSlyke, .flair-Wall, .flair-Wright, .flair-Tolleson {
-    background-image: url(%%FaceFlair%%);
+.flair-Kemp, .flair-Ethier, .flair-Kershaw, .flair-Gordon, .flair-AJEllis, .flair-Gwynn, .flair-Capuano, .flair-Loney, .flair-Jansen, .flair-Giants, .flair-Abreu, .flair-Belisario, .flair-Billingsley, .flair-MEllis, .flair-Guerra, .flair-Harang, .flair-Hairston, .flair-Treanor, .flair-Lindblom, .flair-Rivera, .flair-Mattingly, .flair-Scully, .flair-Kennedy, .flair-Coffey, .flair-Eovaldi, .flair-Lilly, .flair-Cruz, .flair-Elbert, .flair-Robinson, .flair-Asimov, .flair-Fife, .flair-Guerrier, .flair-MacDougal, .flair-Sellers, .flair-VanSlyke, .flair-Wall, .flair-Wright, .flair-Tolleson, .flair-Ramirez {
+    background-image: url(%%Face-Flair%%);
     font-size: 0px;
     height: 30px;
     margin-right: 2px;
     vertical-align: bottom;
     width: 24px;
     }
-a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[href="/AJEllis"], a[href="/Gwynn"], a[href="/Capuano"], a[href="/Loney"], a[href="/Jansen"], a[href="/Uribe"], a[href="/Abreu"], a[href="/Belisario"], a[href="/Billingsley"], a[href="/MEllis"], a[href="/Guerra"], a[href="/Harang"], a[href="/Hairston"], a[href="/Treanor"], a[href="/Lindblom"], a[href="/Rivera"], a[href="/Mattingly"], a[href="/Scully"], a[href="/Kennedy"], a[href="/Coffey"], a[href="/Eovaldi"], a[href="/Lilly"], a[href="/Cruz"], a[href="/Elbert"], a[href="/Robinson"], a[href="/Fife"], a[href="/Guerrier"], a[href="/MacDougal"], a[href="/Sellers"], a[href="/VanSlyke"], a[href="/Wall"], a[href="/Wright"], a[href="/Tolleson"] {
-    background-image: url(%%FaceFlair%%);
+a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[href="/AJEllis"], a[href="/Gwynn"], a[href="/Capuano"], a[href="/Loney"], a[href="/Jansen"], a[href="/Uribe"], a[href="/Abreu"], a[href="/Belisario"], a[href="/Billingsley"], a[href="/MEllis"], a[href="/Guerra"], a[href="/Harang"], a[href="/Hairston"], a[href="/Treanor"], a[href="/Lindblom"], a[href="/Rivera"], a[href="/Mattingly"], a[href="/Scully"], a[href="/Kennedy"], a[href="/Coffey"], a[href="/Eovaldi"], a[href="/Lilly"], a[href="/Cruz"], a[href="/Elbert"], a[href="/Robinson"], a[href="/Fife"], a[href="/Guerrier"], a[href="/MacDougal"], a[href="/Sellers"], a[href="/VanSlyke"], a[href="/Wall"], a[href="/Wright"], a[href="/Tolleson"], a[href="/Ramirez"] {
+    background-image: url(%%Face-Flair%%);
     display: inline-block;
     font-size: 0px;
     height: 30px;
     vertical-align: middle;
     width: 24px;
-}
+    }
 .flair-Kemp, a[href="/Kemp"] {background-position: 0 0;}
-.flair-Ethier, a[href="/Ethier"] {background-position: 0 -32px;}
-.flair-Kershaw, a[href="/Kershaw"] {background-position: 0 -64px;}
-.flair-Gordon, a[href="/Gordon"] {background-position: 0 -96px;}
-.flair-AJEllis, a[href="/AJEllis"] {background-position: 0 -128px;}
-.flair-Gwynn, a[href="/Gwynn"] {background-position: 0 -160px;}
-.flair-Capuano, a[href="/Capuano"] {background-position: 0 -192px;}
-.flair-Loney, a[href="/Loney"] {background-position: 0 -224px;}
-.flair-Jansen, a[href="/Jansen"] {background-position: 0 -256px;}
-.flair-Giants, a[href="/Uribe"] {background-position: 0 -288px;}
-.flair-Abreu, a[href="/Abreu"] {background-position: -24px 0;}
-.flair-Belisario, a[href="/Belisario"] {background-position: -24px -32px;}
-.flair-Billingsley, a[href="/Billingsley"] {background-position: -24px -64px;}
-.flair-MEllis, a[href="/MEllis"] {background-position: -24px -96px;}
-.flair-Guerra, a[href="/Guerra"] {background-position: -24px -128px;}
-.flair-Harang, a[href="/Harang"] {background-position: -24px -160px;}
-.flair-Hairston, a[href="/Hairston"] {background-position: -24px -192px;}
-.flair-Treanor, a[href="/Treanor"] {background-position: -24px -224px;}
-.flair-Lindblom, a[href="/Lindblom"] {background-position: -24px -256px;}
-.flair-Rivera, a[href="/Rivera"] {background-position: -24px -288px;}
-.flair-Mattingly, a[href="/Mattingly"] {background-position: -48px 0;}
-.flair-Scully, a[href="/Scully"] {background-position: -48px -32px;}
-.flair-Kennedy, a[href="/Kennedy"] {background-position: -48px -64px;}
-.flair-Coffey, a[href="/Coffey"] {background-position: -48px -96px;}
-.flair-Eovaldi, a[href="/Eovaldi"] {background-position: -48px -128px;}
-.flair-Lilly, a[href="/Lilly"] {background-position: -48px -160px;}
-.flair-Cruz, a[href="/Cruz"] {background-position: -48px -192px;}
-.flair-Elbert, a[href="/Elbert"] {background-position: -48px -224px;}
-.flair-Robinson, a[href="/Robinson"] {background-position: -48px -256px;}
-.flair-Asimov {background-position: -48px -288px;}
-.flair-Fife, a[href="/Fife"] {background-position: -72px 0;}
-.flair-Guerrier, a[href="/Guerrier"] {background-position: -72px -32px;}
-.flair-MacDougal, a[href="/MacDougal"] {background-position: -72px -64px;}
-.flair-Sellers, a[href="/Sellers"] {background-position: -72px -96px;}
-.flair-VanSlyke, a[href="/Van Slyke"] {background-position: -72px -128px;}
-.flair-Wall, a[href="/Wall"] {background-position: -72px -160px;}
-.flair-Wright, a[href="/Wright"] {background-position: -72px -192px;}
-.flair-Tolleson, a[href="/Tolleson"] {background-position: -72px -224px;}
+.flair-Ethier, a[href="/Ethier"] {background-position: 0 -50px;}
+.flair-Kershaw, a[href="/Kershaw"] {background-position: 0 -100px;}
+.flair-Gordon, a[href="/Gordon"] {background-position: 0 -150px;}
+.flair-AJEllis, a[href="/AJEllis"] {background-position: 0 -200px;}
+.flair-Gwynn, a[href="/Gwynn"] {background-position: 0 -250px;}
+.flair-Capuano, a[href="/Capuano"] {background-position: 0 -300px;}
+.flair-Loney, a[href="/Loney"] {background-position: 0 -350px;}
+.flair-Jansen, a[href="/Jansen"] {background-position: 0 -400px;}
+.flair-Giants, a[href="/Uribe"] {background-position: 0 -450px;}
+.flair-Abreu, a[href="/Abreu"] {background-position: 0 -500px;}
+.flair-Belisario, a[href="/Belisario"] {background-position: 0 -550px;}
+.flair-Billingsley, a[href="/Billingsley"] {background-position: 0 -600px;}
+.flair-MEllis, a[href="/MEllis"] {background-position: 0 -650px;}
+.flair-Guerra, a[href="/Guerra"] {background-position: 0 -700px;}
+.flair-Harang, a[href="/Harang"] {background-position: 0 -750px;}
+.flair-Hairston, a[href="/Hairston"] {background-position: 0 -800px;}
+.flair-Treanor, a[href="/Treanor"] {background-position: 0 -850px;}
+.flair-Lindblom, a[href="/Lindblom"] {background-position: 0 -900px;}
+.flair-Rivera, a[href="/Rivera"] {background-position: 0 -950px;}
+.flair-Mattingly, a[href="/Mattingly"] {background-position: 0 -1000px;}
+.flair-Scully, a[href="/Scully"] {background-position: 0 -1050px;}
+.flair-Kennedy, a[href="/Kennedy"] {background-position: 0 -1100px;}
+.flair-Coffey, a[href="/Coffey"] {background-position: 0 -1150px;}
+.flair-Eovaldi, a[href="/Eovaldi"] {background-position: 0 -1200px;}
+.flair-Lilly, a[href="/Lilly"] {background-position: 0 -1250px;}
+.flair-Cruz, a[href="/Cruz"] {background-position: 0 -1300px;}
+.flair-Elbert, a[href="/Elbert"] {background-position: 0 -1350px;}
+.flair-Robinson, a[href="/Robinson"] {background-position: 0 -1400px;}
+.flair-Asimov {background-position: 0 -1450px;}
+.flair-Fife, a[href="/Fife"] {background-position: 0 -1500px;}
+.flair-Guerrier, a[href="/Guerrier"] {background-position: 0 -1550px;}
+.flair-MacDougal, a[href="/MacDougal"] {background-position: 0 -1600px;}
+.flair-Sellers, a[href="/Sellers"] {background-position: 0 -1650px;}
+.flair-VanSlyke, a[href="/Van Slyke"] {background-position: 0 -1700px;}
+.flair-Wall, a[href="/Wall"] {background-position: 0 -1750px;}
+.flair-Wright, a[href="/Wright"] {background-position: 0 -1800px;}
+.flair-Tolleson, a[href="/Tolleson"] {background-position: 0 -1850px;}
+.flair-Ramirez, a[href="/Ramirez"] {background-position: 0 -1900px;}
 
 /* Reddit Enhancement Suite
 ------------------------------------------------------------------------------ */
@@ -411,5 +415,3 @@ a[href="/TEX"], a[href="/rangers"], a[href="/r/texasrangers"]:empty {background-
 a[href="/TOR"], a[href="/bluejays"], a[href="/r/torontobluejays"]:empty {background-position: 0 -567px;}
 a[href="/WSH"], a[href="/nationals"], a[href="/r/nationals"]:empty {background-position: 0 -588px;}
 a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty {background-position: 0 -609px;}
-
-/* Testing update script */

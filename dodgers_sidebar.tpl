@@ -44,6 +44,7 @@ Date|Team|Result
 * [A.J. Ellis](http://twitter.com/ajellis17)
 * [Tommy Lasorda](http://twitter.com/TommyLasorda)
 * [Luis Cruz](http://twitter.com/CochitoCruz)
+* [Hanley Ramirez](http://twitter.com/HanleyRamirez)
 
 ## Dodger News
 

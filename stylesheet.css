@@ -279,13 +279,16 @@ div.titlebox span.word {
     }
 .link .flair {
     font-size: 0;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
     }
 .flair:empty {
 	background-color: transparent;
 	padding: 0;
 	width: 19px;
 	border: none !important;
-	border-radius: 10px;
+	border-radius: 0 !important;
 	}
 
 .flair-1 {background-position: 0 0;} 

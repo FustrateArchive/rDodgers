@@ -45,6 +45,7 @@ Date|Team|Result
 * [Tommy Lasorda](http://twitter.com/TommyLasorda)
 * [Luis Cruz](http://twitter.com/CochitoCruz)
 * [Hanley Ramirez](http://twitter.com/HanleyRamirez)
+* [Jerry Hairston Jr.](http://twitter.com/Therealjhair)
 
 ## Dodger News
 

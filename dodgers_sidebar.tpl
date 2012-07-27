@@ -38,14 +38,15 @@ Date|Team|Result
 ## Dodger Twitter Accounts
 
 * [Matt Kemp](http://twitter.com/therealmattkemp)
-* [James Loney](http://twitter.com/jamesloney_7)
-* [Javy Guerra](http://twitter.com/javyguerra54)
-* [Dee Gordon](http://twitter.com/skinnyswag9)
-* [A.J. Ellis](http://twitter.com/ajellis17)
 * [Tommy Lasorda](http://twitter.com/TommyLasorda)
-* [Luis Cruz](http://twitter.com/CochitoCruz)
+* [James Loney](http://twitter.com/jamesloney_7)
+* [Dee Gordon](http://twitter.com/skinnyswag9)
 * [Hanley Ramirez](http://twitter.com/HanleyRamirez)
+* [A.J. Ellis](http://twitter.com/ajellis17)
 * [Jerry Hairston Jr.](http://twitter.com/Therealjhair)
+* [Javy Guerra](http://twitter.com/javyguerra54)
+* [Luis Cruz](http://twitter.com/CochitoCruz)
+* [Todd Coffey](http://twitter.com/ToddCoffey60)
 
 ## Dodger News
 

@@ -47,6 +47,9 @@ Date|Team|Result
 * [Javy Guerra](http://twitter.com/javyguerra54)
 * [Luis Cruz](http://twitter.com/CochitoCruz)
 * [Todd Coffey](http://twitter.com/ToddCoffey60)
+* [Shane Victorino](http://twitter.com/ShaneVictorino)
+* [Brandon League](http://twitter.com/BrandonLeague43)
+* [Magic Johnson](http://twitter.com/MagicJohnson)
 
 ## Dodger News
 

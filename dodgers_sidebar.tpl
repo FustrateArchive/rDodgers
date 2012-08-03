@@ -83,10 +83,7 @@ Date|Team|Result
 * [/r/losangeleskings](/r/losangeleskings/)
 * [/r/losangeles](/r/losangeles/)
 * [/r/CityOfLA](/r/CityOfLA/)
-* [/r/NLWest](/r/NLwest/)
 
 ---
-
-Dodger Blue!
 
 Dodger Alien by [Atraktape](http://www.reddit.com/u/Atraktape)

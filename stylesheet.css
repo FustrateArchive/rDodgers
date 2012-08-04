@@ -164,7 +164,7 @@ div.entry p.title a.title:visited {
 	}
 .gadget .midcol {
 	width: 25px;
-	margin: 0;  
+	margin: 0; 
 	}
 .likes div.score.likes {
 	color: #1c73b5;
@@ -212,7 +212,7 @@ div.titlebox span.number:after {
 div.titlebox span.word {
 	display: none;
 	visibility: hidden;
-	} 
+	}
 .side table,
 .entry table {
 	border: 3px double #ccc;
@@ -266,7 +266,7 @@ div.titlebox span.word {
 .flair {
 	top: 20px;
 	height: 19px;
-	background: url(%%numbers%%);
+	background: url(%%numbers-vertical%%);
 	display: inline-block;
 	background-repeat: no-repeat;
 	font-size: 10px;
@@ -291,55 +291,55 @@ div.titlebox span.word {
 	border-radius: 0 !important;
 	}
 
-.flair-1 {background-position: 0 0;} 
-.flair-10 {background-position: 0 -69px;} 
-.flair-11 {background-position: 0 -138px;} 
-.flair-12 {background-position: 0 -207px;} 
-.flair-14 {background-position: 0 -276px;} 
-.flair-15 {background-position: 0 -345px;} 
-.flair-16 {background-position: 0 -414px;} 
-.flair-17 {background-position: 0 -483px;} 
-.flair-18 {background-position: 0 -552px;} 
-.flair-19 {background-position: 0 -621px;} 
-.flair-2 {background-position: 0 -690px;} 
-.flair-20 {background-position: 0 -759px;} 
-.flair-21 {background-position: 0 -828px;} 
-.flair-22 {background-position: 0 -897px;} 
-.flair-23 {background-position: 0 -966px;} 
-.flair-24 {background-position: 0 -1035px;} 
-.flair-27 {background-position: 0 -1104px;} 
-.flair-29 {background-position: 0 -1173px;} 
-.flair-30 {background-position: 0 -1242px;} 
-.flair-31 {background-position: 0 -1311px;} 
-.flair-32 {background-position: 0 -1380px;} 
-.flair-33 {background-position: 0 -1449px;} 
-.flair-34 {background-position: 0 -1518px;} 
-.flair-35 {background-position: 0 -1587px;} 
-.flair-36 {background-position: 0 -1656px;} 
-.flair-38 {background-position: 0 -1725px;} 
-.flair-39 {background-position: 0 -1794px;} 
-.flair-4 {background-position: 0 -1863px;} 
-.flair-41 {background-position: 0 -1932px;} 
-.flair-42 {background-position: -69px 0;} 
-.flair-43 {background-position: -69px -69px;} 
-.flair-44 {background-position: -69px -138px;} 
-.flair-45 {background-position: -69px -207px;} 
-.flair-48 {background-position: -69px -276px;} 
-.flair-49 {background-position: -69px -345px;} 
-.flair-5 {background-position: -69px -414px;} 
-.flair-50 {background-position: -69px -483px;} 
-.flair-51 {background-position: -69px -552px;} 
-.flair-53 {background-position: -69px -621px;} 
-.flair-54 {background-position: -69px -690px;} 
-.flair-55 {background-position: -69px -759px;} 
-.flair-58 {background-position: -69px -828px;} 
-.flair-59 {background-position: -69px -897px;} 
-.flair-6 {background-position: -69px -966px;} 
-.flair-61 {background-position: -69px -1035px;} 
-.flair-7 {background-position: -69px -1104px;} 
-.flair-74 {background-position: -69px -1173px;} 
-.flair-9 {background-position: -69px -1242px;} 
-.flair-99 {background-position: -69px -1311px;} 
+.flair-1 {background-position: 0 0px;}
+.flair-10 {background-position: 0 -64px;}
+.flair-11 {background-position: 0 -128px;}
+.flair-12 {background-position: 0 -192px;}
+.flair-14 {background-position: 0 -256px;}
+.flair-15 {background-position: 0 -320px;}
+.flair-16 {background-position: 0 -384px;}
+.flair-17 {background-position: 0 -448px;}
+.flair-18 {background-position: 0 -512px;}
+.flair-19 {background-position: 0 -576px;}
+.flair-2 {background-position: 0 -640px;}
+.flair-20 {background-position: 0 -704px;}
+.flair-21 {background-position: 0 -768px;}
+.flair-22 {background-position: 0 -832px;}
+.flair-23 {background-position: 0 -896px;}
+.flair-24 {background-position: 0 -960px;}
+.flair-27 {background-position: 0 -1024px;}
+.flair-29 {background-position: 0 -1088px;}
+.flair-30 {background-position: 0 -1152px;}
+.flair-31 {background-position: 0 -1216px;}
+.flair-32 {background-position: 0 -1280px;}
+.flair-33 {background-position: 0 -1344px;}
+.flair-34 {background-position: 0 -1408px;}
+.flair-35 {background-position: 0 -1472px;}
+.flair-36 {background-position: 0 -1536px;}
+.flair-38 {background-position: 0 -1600px;}
+.flair-39 {background-position: 0 -1664px;}
+.flair-4 {background-position: 0 -1728px;}
+.flair-41 {background-position: 0 -1792px;}
+.flair-42 {background-position: 0 -1856px;}
+.flair-43 {background-position: 0 -1920px;}
+.flair-44 {background-position: 0 -1984px;}
+.flair-45 {background-position: 0 -2048px;}
+.flair-48 {background-position: 0 -2112px;}
+.flair-49 {background-position: 0 -2176px;}
+.flair-5 {background-position: 0 -2240px;}
+.flair-50 {background-position: 0 -2304px;}
+.flair-51 {background-position: 0 -2368px;}
+.flair-53 {background-position: 0 -2432px;}
+.flair-54 {background-position: 0 -2496px;}
+.flair-55 {background-position: 0 -2560px;}
+.flair-58 {background-position: 0 -2624px;}
+.flair-59 {background-position: 0 -2688px;}
+.flair-6 {background-position: 0 -2752px;}
+.flair-61 {background-position: 0 -2816px;}
+.flair-7 {background-position: 0 -2880px;}
+.flair-74 {background-position: 0 -2944px;}
+.flair-9 {background-position: 0 -3008px;}
+.flair-99 {background-position: 0 -3072px;}
 
 .flair-Kemp, .flair-Ethier, .flair-Kershaw, .flair-Gordon, .flair-AJEllis, .flair-Gwynn, .flair-Capuano, .flair-Loney, .flair-Jansen, .flair-Giants, .flair-Abreu, .flair-Belisario, .flair-Billingsley, .flair-MEllis, .flair-Guerra, .flair-Harang, .flair-Hairston, .flair-Treanor, .flair-Lindblom, .flair-Rivera, .flair-Mattingly, .flair-Scully, .flair-Kennedy, .flair-Coffey, .flair-Eovaldi, .flair-Lilly, .flair-Cruz, .flair-Elbert, .flair-Robinson, .flair-Asimov, .flair-Fife, .flair-Guerrier, .flair-MacDougal, .flair-Sellers, .flair-VanSlyke, .flair-Wall, .flair-Wright, .flair-Tolleson, .flair-Ramirez, .flair-Victorino, .flair-League, .flair-Blanton {
 	background-image: url(%%Face-Flair%%);

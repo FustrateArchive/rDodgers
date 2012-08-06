@@ -156,6 +156,17 @@ div.entry p.title a.title:visited {
 .arrow.downmod {
 	background-position: 0px -125px;
 	}
+.comment .down:hover:after {
+	background: #fbfbfb;
+	content: "Downbarries are for rude or hurtful comments only!";
+	font-size: 1.2em;
+	margin-left: 3px 0 0 25px;
+	position: absolute;
+	border: 1px solid #DDD;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	}
 .midcol[style] {
 	width: 4ex !important;
 	}
@@ -288,7 +299,6 @@ div.titlebox span.word {
 	padding: 0;
 	width: 19px;
 	border: none !important;
-	border-radius: 0 !important;
 	}
 
 .flair-1 {background-position: 0 0px;}

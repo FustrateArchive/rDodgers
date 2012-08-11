@@ -119,7 +119,7 @@ body {
 	margin: 0 315px 0 0;
 	}
 .listing-page .thing {
-	padding: 5px 0;
+	padding: 5px 0 5px 5px;
 	border-bottom: 1px solid #ddd;
 	}
 .listing-page .link {
@@ -150,8 +150,7 @@ body {
 	border-bottom: 1px solid #ddd;
 	}
 .rank {
-	margin: 25px 0 0 8px;
-	text-align: left;
+	display: none;
 	}
 div.entry p.title a.title {
 	color: DodgerBlue;

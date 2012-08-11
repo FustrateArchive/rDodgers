@@ -115,13 +115,53 @@ body {
 
 /* Content area
 ----------------------------------------------------------------------------- */
+#siteTable {
+	margin: 0 315px 0 0;
+	}
+.listing-page .thing {
+	padding: 5px 0;
+	border-bottom: 1px solid #ddd;
+	}
+.listing-page .link {
+	margin-bottom: 0;
+	position: relative;
+	}
+.listing-page .comments {
+	font-size: 1.2em;
+	position: absolute;
+	top: 2.5em;
+	right: 10px;
+	font-size: 1.2em;
+	position: absolute;
+	right: 10px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 3px !important;
+	background: #f4f4f4;
+	border: 1px solid #e4e4e4;
+	}
+.listing-page .even .comments {
+	background: #dfdfdf;
+	border: 1px solid #cfcfcf;
+	}
+.listing-page .even {
+	background: url(%%opaque%%);
+	border-bottom: 1px solid #ddd;
+	}
+.rank {
+	margin: 25px 0 0 8px;
+	text-align: left;
+	}
 div.entry p.title a.title {
 	color: DodgerBlue;
 	}
 div.entry p.title a.title:visited {
 	color: #005596; /* #1564b2; */
 	}
-
+.entry.keyHighlight {
+	min-height: 6em;
+	}
 /* Thumbnails */
 .thumbnail img[src="/static/noimage.png"] {
 	display: none

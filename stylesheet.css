@@ -139,17 +139,20 @@ body {
 	-webkit-border-radius: 4px;
 	padding: 3px !important;
 	background: #eeeeee;
-	border: 1px dotted #dadada;
+	border: 1px dotted #ccc;
 	}
-.listing-page .entry .buttons a.comments:hover {
+.listing-page .thing:hover .buttons a.comments {
 	color: black;
 	text-decoration: none;
 	background: #e8e8e8;
-	border: 1px solid #ccc;
+	border: 1px solid #c4c4c4;
 	}
 .listing-page .even {
 	background: url(%%opaque%%);
 	border-bottom: 1px solid #ddd;
+	}
+.listing-page .thing:hover {
+	background: url(%%opaque2%%);
 	}
 .rank {
 	display: none;
@@ -258,10 +261,10 @@ a[href*="/game_chat_"].thumbnail.self {
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	}
-div.titlebox span.number:after {
+span.subscribers span.number:after {
 	content: " Dodger Fans";
 	}
-div.titlebox span.word {
+span.subscribers span.word {
 	display: none;
 	visibility: hidden;
 	}
@@ -392,7 +395,7 @@ div.titlebox span.word {
 .flair-9 {background-position: 0 -3008px;}
 .flair-99 {background-position: 0 -3072px;}
 
-.flair-Kemp, .flair-Ethier, .flair-Kershaw, .flair-Gordon, .flair-AJEllis, .flair-Gwynn, .flair-Capuano, .flair-Loney, .flair-Jansen, .flair-Giants, .flair-Abreu, .flair-Belisario, .flair-Billingsley, .flair-MEllis, .flair-Guerra, .flair-Harang, .flair-Hairston, .flair-Treanor, .flair-Lindblom, .flair-Rivera, .flair-Mattingly, .flair-Scully, .flair-Kennedy, .flair-Coffey, .flair-Eovaldi, .flair-Lilly, .flair-Cruz, .flair-Elbert, .flair-Robinson, .flair-Asimov, .flair-Fife, .flair-Guerrier, .flair-MacDougal, .flair-Sellers, .flair-VanSlyke, .flair-Wall, .flair-Wright, .flair-Tolleson, .flair-Ramirez, .flair-Victorino, .flair-League, .flair-Blanton, .flair-Sands {
+.flair-Kemp, .flair-Ethier, .flair-Kershaw, .flair-Gordon, .flair-AJEllis, .flair-Gwynn, .flair-Capuano, .flair-Loney, .flair-Jansen, .flair-Giants, .flair-Abreu, .flair-Belisario, .flair-Billingsley, .flair-MEllis, .flair-Guerra, .flair-Harang, .flair-Hairston, .flair-Treanor, .flair-Lindblom, .flair-Rivera, .flair-Mattingly, .flair-Scully, .flair-Kennedy, .flair-Coffey, .flair-Eovaldi, .flair-Lilly, .flair-Cruz, .flair-Elbert, .flair-Robinson, .flair-Asimov, .flair-Fife, .flair-Guerrier, .flair-MacDougal, .flair-Sellers, .flair-VanSlyke, .flair-Wall, .flair-Wright, .flair-Tolleson, .flair-Ramirez, .flair-Victorino, .flair-League, .flair-Blanton, .flair-Sands, .flair-Herrera {
 	background-image: url(%%Face-Flair%%);
 	font-size: 0px;
 	height: 30px;
@@ -405,7 +408,7 @@ div.titlebox span.word {
 	border: none !important;
 	border-radius: 0;
 	}
-a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[href="/AJEllis"], a[href="/Gwynn"], a[href="/Capuano"], a[href="/Loney"], a[href="/Jansen"], a[href="/Uribe"], a[href="/Abreu"], a[href="/Belisario"], a[href="/Billingsley"], a[href="/MEllis"], a[href="/Guerra"], a[href="/Harang"], a[href="/Hairston"], a[href="/Treanor"], a[href="/Lindblom"], a[href="/Rivera"], a[href="/Mattingly"], a[href="/Scully"], a[href="/Kennedy"], a[href="/Coffey"], a[href="/Eovaldi"], a[href="/Lilly"], a[href="/Cruz"], a[href="/Elbert"], a[href="/Robinson"], a[href="/Fife"], a[href="/Guerrier"], a[href="/MacDougal"], a[href="/Sellers"], a[href="/VanSlyke"], a[href="/Wall"], a[href="/Wright"], a[href="/Tolleson"], a[href="/Ramirez"], a[href="/Victorino"], a[href="/League"], a[href="/Blanton"], a[href="/Sands"] {
+a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[href="/AJEllis"], a[href="/Gwynn"], a[href="/Capuano"], a[href="/Loney"], a[href="/Jansen"], a[href="/Uribe"], a[href="/Abreu"], a[href="/Belisario"], a[href="/Billingsley"], a[href="/MEllis"], a[href="/Guerra"], a[href="/Harang"], a[href="/Hairston"], a[href="/Treanor"], a[href="/Lindblom"], a[href="/Rivera"], a[href="/Mattingly"], a[href="/Scully"], a[href="/Kennedy"], a[href="/Coffey"], a[href="/Eovaldi"], a[href="/Lilly"], a[href="/Cruz"], a[href="/Elbert"], a[href="/Robinson"], a[href="/Fife"], a[href="/Guerrier"], a[href="/MacDougal"], a[href="/Sellers"], a[href="/VanSlyke"], a[href="/Wall"], a[href="/Wright"], a[href="/Tolleson"], a[href="/Ramirez"], a[href="/Victorino"], a[href="/League"], a[href="/Blanton"], a[href="/Sands"], a[href="/Herrera"] {
 	background-image: url(%%Face-Flair%%);
 	display: inline-block;
 	font-size: 0px;
@@ -456,6 +459,7 @@ a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[hre
 .flair-League, a[href="/League"] {background-position: 0 -2000px;}
 .flair-Blanton, a[href="/Blanton"] {background-position: 0 -2050px;}
 .flair-Sands, a[href="/Sands"] {background-position: 0 -2100px;}
+.flair-Herrera, a[href="/Herrera"] {background-position: 0 -2150px;}
 
 /* Reddit Enhancement Suite
 ------------------------------------------------------------------------------ */

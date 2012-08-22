@@ -395,7 +395,61 @@ span.subscribers span.word {
 .flair-9 {background-position: 0 -3008px;}
 .flair-99 {background-position: 0 -3072px;}
 
-.flair-ANA, .flair-ARI, .flair-ATL, .flair-BOS, .flair-CHC, .flair-CIN, .flair-CLE, .flair-COL, .flair-CHW, .flair-DET, .flair-MIA, .flair-HOU, .flair-KC, .flair-LA, .flair-MIL, .flair-MIN, .flair-NYM, .flair-NYY, .flair-OAK, .flair-PHI, .flair-PIT, .flair-SD, .flair-SEA, .flair-LOL, .flair-STL, .flair-TB, .flair-TEX, .flair-TOR, .flair-WSH, .flair-BAL, .flair-LA2 {
+.flair-Cornelius,
+.flair-CorneliusLA {
+	background-image: url(%%flair-misc%%);
+	height: 30px;
+	margin-right: 2px;
+	vertical-align: bottom;
+	padding: 0 4px 0 34px;
+	border: none !important;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-bottom: 2px;
+	font-size: 1.15em;
+	background-color: #f4e8cd !important;
+	border: 1px solid #ad9562 !important;
+	color: #99804a !important;
+	}
+.flair-Cornelius {
+	background-position: 0 -50px;
+	width: 30px;
+	padding: 0;
+	font-size: 0;
+	background-color: transparent !important;
+	border: none !important;
+	}
+.link .flair-Cornelius,
+.link .flair-CorneliusLA,
+.sidecontentbox .flair-Cornelius,
+.sidecontentbox .flair-CorneliusLA {
+	width: 30px;
+	padding: 0;
+	font-size: 0;
+	background-color: transparent !important;
+	border: none !important;
+	}
+a[href="/CORNELIUS"],
+a[href="/Cornelius"],
+a[href="/cornelius"],
+a[href="/CORNELIUS2"],
+a[href="/Cornelius2"],
+a[href="/cornelius2"] {
+	background-image: url(%%macros-misc%%);
+	background-position: 0 -50px;
+	display: inline-block;
+	font-size: 0px;
+	height: 40px;
+	vertical-align: middle;
+	width: 40px;
+	}
+a[href="/CORNELIUS2"],
+a[href="/Cornelius2"],
+a[href="/cornelius2"] {
+	background-position: 0 0;
+	}
+
+.flair-ANA,.flair-ARI, .flair-ATL, .flair-BOS, .flair-CHC, .flair-CIN, .flair-CLE, .flair-COL, .flair-CHW, .flair-DET, .flair-MIA, .flair-HOU, .flair-KC, .flair-LA, .flair-MIL, .flair-MIN, .flair-NYM, .flair-NYY, .flair-OAK, .flair-PHI, .flair-PIT, .flair-SD, .flair-SEA, .flair-LOL, .flair-STL, .flair-TB, .flair-TEX, .flair-TOR, .flair-WSH, .flair-BAL, .flair-LA2 {
 	background-image: url(%%team-flair%%);
 	font-size: 0px;
 	height: 20px;
@@ -519,38 +573,38 @@ a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[hre
 a[href="/ANA"], a[href="/angels"], a[href="/r/angelsbaseball"]:empty, a[href="/ARI"], a[href="/diamondbacks"], a[href="/r/azdiamondbacks"]:empty, a[href="/ATL"], a[href="/braves"], a[href="/r/braves"]:empty, a[href="/BOS"], a[href="/redsox"], a[href="/r/redsox"]:empty, a[href="/CHC"], a[href="/cubs"], a[href="/r/cubs"]:empty, a[href="/CIN"], a[href="/reds"], a[href="/r/reds"]:empty, a[href="/CLE"], a[href="/indians"], a[href="/r/wahoostipi"]:empty, a[href="/COL"], a[href="/rockies"], a[href="/r/coloradorockies"]:empty, a[href="/CHW"], a[href="/whitesox"], a[href="/r/whitesox"]:empty, a[href="/DET"], a[href="/tigers"], a[href="/r/motorcitykitties"]:empty, a[href="/MIA"], a[href="/marlins"], a[href="/r/letsgofish"]:empty, a[href="/HOU"], a[href="/astros"], a[href="/r/astros"]:empty, a[href="/KCR"], a[href="/royals"], a[href="/r/kcroyals"]:empty, a[href="/LAD"], a[href="/dodgers"], a[href="/r/dodgers"]:empty, a[href="/MIL"], a[href="/brewers"], a[href="/r/brewers"]:empty, a[href="/MIN"], a[href="/twins"], a[href="/r/minnesotatwins"]:empty, a[href="/NYM"], a[href="/mets"], a[href="/r/newyorkmets"]:empty, a[href="/NYY"], a[href="/yankees"], a[href="/r/yankees"]:empty, a[href="/OAK"], a[href="/athletics"], a[href="/r/oaklandathletics"]:empty, a[href="/PHI"], a[href="/phillies"], a[href="/r/phillies"]:empty, a[href="/PIT"], a[href="/pirates"], a[href="/r/buccos"]:empty, a[href="/SDP"], a[href="/padres"], a[href="/r/padres"]:empty, a[href="/SEA"], a[href="/mariners"], a[href="/r/mariners"]:empty, a[href="/SFG"], a[href="/giants"], a[href="/r/sfgiants"]:empty, a[href="/LOL"], a[href="/STL"], a[href="/cardinals"], a[href="/r/cardinals"]:empty, a[href="/TBR"], a[href="/rays"], a[href="/r/tampabayrays"]:empty, a[href="/TEX"], a[href="/rangers"], a[href="/r/texasrangers"]:empty, a[href="/TOR"], a[href="/bluejays"], a[href="/r/torontobluejays"]:empty, a[href="/WSH"], a[href="/nationals"], a[href="/r/nationals"]:empty, a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty, a[href="/LOL"] {
 	display: inline-block;
 	font-size: 0px;
-	width: 21px;
-	height: 21px;
-	background-image: url(%%TeamLogos%%);
+	width: 20px;
+	height: 20px;
+	background-image: url(%%team-flair%%);
 	vertical-align: middle;
 	}
 a[href="/ANA"], a[href="/angels"], a[href="/r/angelsbaseball"]:empty {background-position: 0 0;}
-a[href="/ARI"], a[href="/diamondbacks"], a[href="/r/azdiamondbacks"]:empty {background-position: 0 -21px;}
-a[href="/ATL"], a[href="/braves"], a[href="/r/braves"]:empty {background-position: 0 -42px;}
-a[href="/BOS"], a[href="/redsox"], a[href="/r/redsox"]:empty {background-position: 0 -63px;}
-a[href="/CHC"], a[href="/cubs"], a[href="/r/cubs"]:empty {background-position: 0 -84px;}
-a[href="/CIN"], a[href="/reds"], a[href="/r/reds"]:empty {background-position: 0 -105px;}
-a[href="/CLE"], a[href="/indians"], a[href="/r/wahoostipi"]:empty {background-position: 0 -126px;}
-a[href="/COL"], a[href="/rockies"], a[href="/r/coloradorockies"]:empty {background-position: 0 -147px;}
-a[href="/CHW"], a[href="/whitesox"], a[href="/r/whitesox"]:empty {background-position: 0 -168px;}
-a[href="/DET"], a[href="/tigers"], a[href="/r/motorcitykitties"]:empty {background-position: 0 -189px;}
-a[href="/MIA"], a[href="/marlins"], a[href="/r/letsgofish"]:empty {background-position: 0 -210px;}
-a[href="/HOU"], a[href="/astros"], a[href="/r/astros"]:empty {background-position: 0 -231px;}
-a[href="/KCR"], a[href="/royals"], a[href="/r/kcroyals"]:empty {background-position: 0 -252px;}
-a[href="/LAD"], a[href="/dodgers"], a[href="/r/dodgers"]:empty {background-position: 0 -273px;}
-a[href="/MIL"], a[href="/brewers"], a[href="/r/brewers"]:empty {background-position: 0 -294px;}
-a[href="/MIN"], a[href="/twins"], a[href="/r/minnesotatwins"]:empty {background-position: 0 -315px;}
-a[href="/NYM"], a[href="/mets"], a[href="/r/newyorkmets"]:empty {background-position: 0 -336px;}
-a[href="/NYY"], a[href="/yankees"], a[href="/r/yankees"]:empty {background-position: 0 -357px;}
-a[href="/OAK"], a[href="/athletics"], a[href="/r/oaklandathletics"]:empty {background-position: 0 -378px;}
-a[href="/PHI"], a[href="/phillies"], a[href="/r/phillies"]:empty {background-position: 0 -399px;}
-a[href="/PIT"], a[href="/pirates"], a[href="/r/buccos"]:empty {background-position: 0 -420px;}
-a[href="/SDP"], a[href="/padres"], a[href="/r/padres"]:empty {background-position: 0 -441px;}
-a[href="/SEA"], a[href="/mariners"], a[href="/r/mariners"]:empty {background-position: 0 -462px;}
-a[href="/SFG"], a[href="/giants"], a[href="/r/sfgiants"]:empty, a[href="/LOL"] {background-position: 0 -483px;}
-a[href="/STL"], a[href="/cardinals"], a[href="/r/cardinals"]:empty {background-position: 0 -504px;}
-a[href="/TBR"], a[href="/rays"], a[href="/r/tampabayrays"]:empty {background-position: 0 -525px;}
-a[href="/TEX"], a[href="/rangers"], a[href="/r/texasrangers"]:empty {background-position: 0 -546px;}
-a[href="/TOR"], a[href="/bluejays"], a[href="/r/torontobluejays"]:empty {background-position: 0 -567px;}
-a[href="/WSH"], a[href="/nationals"], a[href="/r/nationals"]:empty {background-position: 0 -588px;}
-a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty {background-position: 0 -609px;}
+a[href="/ARI"], a[href="/diamondbacks"], a[href="/r/azdiamondbacks"]:empty {background-position: 0 -64px;}
+a[href="/ATL"], a[href="/braves"], a[href="/r/braves"]:empty {background-position: 0 -128px;}
+a[href="/BOS"], a[href="/redsox"], a[href="/r/redsox"]:empty {background-position: 0 -192px;}
+a[href="/CHC"], a[href="/cubs"], a[href="/r/cubs"]:empty {background-position: 0 -256px;}
+a[href="/CIN"], a[href="/reds"], a[href="/r/reds"]:empty {background-position: 0 -320px;}
+a[href="/CLE"], a[href="/indians"], a[href="/r/wahoostipi"]:empty {background-position: 0 -384px;}
+a[href="/COL"], a[href="/rockies"], a[href="/r/coloradorockies"]:empty {background-position: 0 -448px;}
+a[href="/CHW"], a[href="/whitesox"], a[href="/r/whitesox"]:empty {background-position: 0 -512px;}
+a[href="/DET"], a[href="/tigers"], a[href="/r/motorcitykitties"]:empty {background-position: 0 -576px;}
+a[href="/MIA"], a[href="/marlins"], a[href="/r/letsgofish"]:empty {background-position: 0 -640px;}
+a[href="/HOU"], a[href="/astros"], a[href="/r/astros"]:empty {background-position: 0 -704px;}
+a[href="/KCR"], a[href="/royals"], a[href="/r/kcroyals"]:empty {background-position: 0 -768px;}
+a[href="/LAD"], a[href="/dodgers"], a[href="/r/dodgers"]:empty {background-position: 0 -832px;}
+a[href="/MIL"], a[href="/brewers"], a[href="/r/brewers"]:empty {background-position: 0 -896px;}
+a[href="/MIN"], a[href="/twins"], a[href="/r/minnesotatwins"]:empty {background-position: 0 -960px;}
+a[href="/NYM"], a[href="/mets"], a[href="/r/newyorkmets"]:empty {background-position: 0 -1024px;}
+a[href="/NYY"], a[href="/yankees"], a[href="/r/yankees"]:empty {background-position: 0 -1088px;}
+a[href="/OAK"], a[href="/athletics"], a[href="/r/oaklandathletics"]:empty {background-position: 0 -1152px;}
+a[href="/PHI"], a[href="/phillies"], a[href="/r/phillies"]:empty {background-position: 0 -1216px;}
+a[href="/PIT"], a[href="/pirates"], a[href="/r/buccos"]:empty {background-position: 0 -1280px;}
+a[href="/SDP"], a[href="/padres"], a[href="/r/padres"]:empty {background-position: 0 -1344px;}
+a[href="/SEA"], a[href="/mariners"], a[href="/r/mariners"]:empty {background-position: 0 -1408px;}
+a[href="/SFG"], a[href="/giants"], a[href="/r/sfgiants"]:empty, a[href="/LOL"] {background-position: 0 -1472px;}
+a[href="/STL"], a[href="/cardinals"], a[href="/r/cardinals"]:empty {background-position: 0 -1536px;}
+a[href="/TBR"], a[href="/rays"], a[href="/r/tampabayrays"]:empty {background-position: 0 -1600px;}
+a[href="/TEX"], a[href="/rangers"], a[href="/r/texasrangers"]:empty {background-position: 0 -1664px;}
+a[href="/TOR"], a[href="/bluejays"], a[href="/r/torontobluejays"]:empty {background-position: 0 -1728px;}
+a[href="/WSH"], a[href="/nationals"], a[href="/r/nationals"]:empty {background-position: 0 -1792px;}
+a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty {background-position: 0 -1856px;}

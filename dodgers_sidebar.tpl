@@ -37,12 +37,12 @@ Date|Team|Result
 
 ## Dodger Twitter Accounts
 
+* [Josh Beckett](http://twitter.com/beck19bb)
 * [Todd Coffey](http://twitter.com/ToddCoffey60)
 * [Luis Cruz](http://twitter.com/CochitoCruz)
 * [Adrian Gonzalez](http://twitter.com/adriangon28)
 * [Dee Gordon](http://twitter.com/skinnyswag9)
 * [A.J. Ellis](http://twitter.com/ajellis17)
-* [Josh Beckett](http://twitter.com/beck19bb)
 * [Javy Guerra](http://twitter.com/javyguerra54)
 * [Jerry Hairston Jr.](http://twitter.com/Therealjhair)
 * [Matt Kemp](http://twitter.com/therealmattkemp)

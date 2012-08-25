@@ -42,6 +42,7 @@ Date|Team|Result
 * [Adrian Gonzalez](http://twitter.com/adriangon28)
 * [Dee Gordon](http://twitter.com/skinnyswag9)
 * [A.J. Ellis](http://twitter.com/ajellis17)
+* [Josh Beckett](http://twitter.com/beck19bb)
 * [Javy Guerra](http://twitter.com/javyguerra54)
 * [Jerry Hairston Jr.](http://twitter.com/Therealjhair)
 * [Matt Kemp](http://twitter.com/therealmattkemp)

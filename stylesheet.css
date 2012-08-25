@@ -399,35 +399,21 @@ span.subscribers span.word {
 .flair-CorneliusLA {
 	background-image: url(%%flair-misc%%);
 	height: 30px;
+	width: 30px;
 	margin-right: 2px;
 	vertical-align: bottom;
-	padding: 0 4px 0 34px;
+	padding: 0;
 	border: none !important;
 	white-space: nowrap;
 	line-height: 30px;
 	margin-bottom: 2px;
 	font-size: 1.15em;
-	background-color: #f4e8cd !important;
-	border: 1px solid #ad9562 !important;
+	background-color: transparent !important;
+	border: none !important;
 	color: #99804a !important;
 	}
 .flair-Cornelius {
 	background-position: 0 -50px;
-	width: 30px;
-	padding: 0;
-	font-size: 0;
-	background-color: transparent !important;
-	border: none !important;
-	}
-.link .flair-Cornelius,
-.link .flair-CorneliusLA,
-.sidecontentbox .flair-Cornelius,
-.sidecontentbox .flair-CorneliusLA {
-	width: 30px;
-	padding: 0;
-	font-size: 0;
-	background-color: transparent !important;
-	border: none !important;
 	}
 a[href="/CORNELIUS"],
 a[href="/Cornelius"],
@@ -494,7 +480,7 @@ a[href="/cornelius2"] {
 .flair-BAL {background-position: 0 -1856px;}
 .flair-LA2 {background-position: 0 -1920px;}
 
-.flair-Kemp, .flair-Ethier, .flair-Kershaw, .flair-Gordon, .flair-AJEllis, .flair-Gwynn, .flair-Capuano, .flair-Loney, .flair-Jansen, .flair-Giants, .flair-Abreu, .flair-Belisario, .flair-Billingsley, .flair-MEllis, .flair-Guerra, .flair-Harang, .flair-Hairston, .flair-Treanor, .flair-Lindblom, .flair-Rivera, .flair-Mattingly, .flair-Scully, .flair-Kennedy, .flair-Coffey, .flair-Eovaldi, .flair-Lilly, .flair-Cruz, .flair-Elbert, .flair-Robinson, .flair-Asimov, .flair-Fife, .flair-Guerrier, .flair-MacDougal, .flair-Sellers, .flair-VanSlyke, .flair-Wall, .flair-Wright, .flair-Tolleson, .flair-Ramirez, .flair-Victorino, .flair-League, .flair-Blanton, .flair-Sands, .flair-DeLaRosa, .flair-Herrera {
+.flair-Kemp, .flair-Ethier, .flair-Kershaw, .flair-Gordon, .flair-AJEllis, .flair-Gwynn, .flair-Capuano, .flair-Loney, .flair-Jansen, .flair-Giants, .flair-Abreu, .flair-Belisario, .flair-Billingsley, .flair-MEllis, .flair-Guerra, .flair-Harang, .flair-Hairston, .flair-Treanor, .flair-Lindblom, .flair-Rivera, .flair-Mattingly, .flair-Scully, .flair-Kennedy, .flair-Coffey, .flair-Eovaldi, .flair-Lilly, .flair-Cruz, .flair-Elbert, .flair-Robinson, .flair-Asimov, .flair-Fife, .flair-Guerrier, .flair-MacDougal, .flair-Sellers, .flair-VanSlyke, .flair-Wall, .flair-Wright, .flair-Tolleson, .flair-Ramirez, .flair-Victorino, .flair-League, .flair-Blanton, .flair-Sands, .flair-DeLaRosa, .flair-Herrera, .flair-Gonzalez {
 	background-image: url(%%flair-faces%%);
 	font-size: 0px;
 	height: 30px;
@@ -507,7 +493,7 @@ a[href="/cornelius2"] {
 	border: none !important;
 	border-radius: 0;
 	}
-a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[href="/AJEllis"], a[href="/Gwynn"], a[href="/Capuano"], a[href="/Loney"], a[href="/Jansen"], a[href="/Uribe"], a[href="/Abreu"], a[href="/Belisario"], a[href="/Billingsley"], a[href="/MEllis"], a[href="/Guerra"], a[href="/Harang"], a[href="/Hairston"], a[href="/Treanor"], a[href="/Lindblom"], a[href="/Rivera"], a[href="/Mattingly"], a[href="/Scully"], a[href="/Kennedy"], a[href="/Coffey"], a[href="/Eovaldi"], a[href="/Lilly"], a[href="/Cruz"], a[href="/Elbert"], a[href="/Robinson"], a[href="/Fife"], a[href="/Guerrier"], a[href="/MacDougal"], a[href="/Sellers"], a[href="/VanSlyke"], a[href="/Wall"], a[href="/Wright"], a[href="/Tolleson"], a[href="/Ramirez"], a[href="/Victorino"], a[href="/League"], a[href="/Blanton"], a[href="/Sands"], a[href="/DeLaRosa"], a[href="/Herrera"] {
+a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[href="/AJEllis"], a[href="/Gwynn"], a[href="/Capuano"], a[href="/Loney"], a[href="/Jansen"], a[href="/Uribe"], a[href="/Abreu"], a[href="/Belisario"], a[href="/Billingsley"], a[href="/MEllis"], a[href="/Guerra"], a[href="/Harang"], a[href="/Hairston"], a[href="/Treanor"], a[href="/Lindblom"], a[href="/Rivera"], a[href="/Mattingly"], a[href="/Scully"], a[href="/Kennedy"], a[href="/Coffey"], a[href="/Eovaldi"], a[href="/Lilly"], a[href="/Cruz"], a[href="/Elbert"], a[href="/Robinson"], a[href="/Fife"], a[href="/Guerrier"], a[href="/MacDougal"], a[href="/Sellers"], a[href="/VanSlyke"], a[href="/Wall"], a[href="/Wright"], a[href="/Tolleson"], a[href="/Ramirez"], a[href="/Victorino"], a[href="/League"], a[href="/Blanton"], a[href="/Sands"], a[href="/DeLaRosa"], a[href="/Herrera"], a[href="/Gonzalez"] {
 	background-image: url(%%flair-faces%%);
 	display: inline-block;
 	font-size: 0px;
@@ -560,6 +546,7 @@ a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[hre
 .flair-Sands, a[href="/Sands"] {background-position: 0 -2100px;}
 .flair-DeLaRosa, a[href="/DeLaRosa"] {background-position: 0 -2150px;}
 .flair-Herrera, a[href="/Herrera"] {background-position: 0 -2200px;}
+.flair-Gonzalez, a[href="/Gonzalez"] {background-position: 0 -2250px;}
 
 /* Reddit Enhancement Suite
 ------------------------------------------------------------------------------ */

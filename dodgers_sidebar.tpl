@@ -1,7 +1,7 @@
 ## NL West Standings
 
 Team|W|L|PCT|GB
-:--:|:--:|:--:|:--:|:--:
+:-:|:-:|:-:|:-:|:-:
 {%- for team in standings %}
 []({{ team.subreddit }})|{{ team.wins }}|{{ team.losses }}|{{ team.percent }}|{{ team.games_back }}
 {%- endfor %}
@@ -15,7 +15,7 @@ Date|Team|Result
 {%- for game in recent_games|reverse %}
 {{ game.date|datetime('%a %m/%d') }}|{{ game.where }} []({{ game.against }})|[
 {%- if game.outcome == "W" -%}
- **{{ game.outcome }} _{{ game.score }}_**
+	**{{ game.outcome }} _{{ game.score }}_**
 {%- else -%}
 	{{ game.outcome }} _{{ game.score }}_
 {%- endif %}](http://losangeles.dodgers.mlb.com/mlb/scoreboard/index.jsp?c_id=la#date={{ game.date|datetime("%m/%d/%Y") }})
@@ -37,19 +37,21 @@ Date|Team|Result
 
 ## Dodger Twitter Accounts
 
-* [Matt Kemp](http://twitter.com/therealmattkemp)
-* [Tommy Lasorda](http://twitter.com/TommyLasorda)
-* [James Loney](http://twitter.com/jamesloney_7)
-* [Dee Gordon](http://twitter.com/skinnyswag9)
-* [Hanley Ramirez](http://twitter.com/HanleyRamirez)
-* [A.J. Ellis](http://twitter.com/ajellis17)
-* [Jerry Hairston Jr.](http://twitter.com/Therealjhair)
-* [Javy Guerra](http://twitter.com/javyguerra54)
-* [Luis Cruz](http://twitter.com/CochitoCruz)
 * [Todd Coffey](http://twitter.com/ToddCoffey60)
-* [Shane Victorino](http://twitter.com/ShaneVictorino)
+* [Luis Cruz](http://twitter.com/CochitoCruz)
+* [Adrian Gonzalez](http://twitter.com/adriangon28)
+* [Dee Gordon](http://twitter.com/skinnyswag9)
+* [A.J. Ellis](http://twitter.com/ajellis17)
+* [Javy Guerra](http://twitter.com/javyguerra54)
+* [Jerry Hairston Jr.](http://twitter.com/Therealjhair)
+* [Matt Kemp](http://twitter.com/therealmattkemp)
+* [Clayton Kershaw](http://twitter.com/ClaytonKersh22)
 * [Brandon League](http://twitter.com/BrandonLeague43)
+* [Nick Punto](http://twitter.com/Shredderpunto)
+* [Hanley Ramirez](http://twitter.com/HanleyRamirez)
+* [Shane Victorino](http://twitter.com/ShaneVictorino)
 * [Magic Johnson](http://twitter.com/MagicJohnson)
+* [Tommy Lasorda](http://twitter.com/TommyLasorda)
 
 ## Dodger News
 

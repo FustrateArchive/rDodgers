@@ -407,10 +407,13 @@ span.subscribers span.word {
 	white-space: nowrap;
 	line-height: 30px;
 	margin-bottom: 2px;
+/*
 	font-size: 1.15em;
 	background-color: transparent !important;
 	border: none !important;
 	color: #99804a !important;
+*/
+	font-size: 0;
 	}
 .flair-Cornelius {
 	background-position: 0 -50px;

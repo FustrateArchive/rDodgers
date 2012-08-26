@@ -37,6 +37,7 @@ Date|Team|Result
 
 ## Dodger Twitter Accounts
 
+* [Josh Beckett](http://twitter.com/beck19bb)
 * [Todd Coffey](http://twitter.com/ToddCoffey60)
 * [Luis Cruz](http://twitter.com/CochitoCruz)
 * [Adrian Gonzalez](http://twitter.com/adriangon28)

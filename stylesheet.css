@@ -9,7 +9,7 @@ body {
 
 /* Header Styles
 ----------------------------------------------------------------------------- */
-#header #header-bottom-left {
+#header-bottom-left {
 	background: #000 url(%%DodgerHeader2%%) no-repeat top left;
 	height: 170px;
 	}
@@ -200,17 +200,20 @@ div.entry p.title a.title:visited {
 .arrow.downmod {
 	background-position: 0px -125px;
 	}
+/*
 .comment .down:hover:after {
 	background: #fbfbfb;
 	content: "Downbarries are for rude or hurtful comments only!";
 	font-size: 1.2em;
-	margin: 3px 0 0 25px;
-	position: absolute;
+	position: fixed;
+	bottom: 0;
+	right: 0;
 	border: 1px solid #DDD;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-top-left-radius: 3px;
+	border-top-left-radius: 3px;
 	}
+*/
 .midcol[style] {
 	width: 4ex !important;
 	}
@@ -477,7 +480,7 @@ a[href="/cornelius2"] {
 .flair-BAL {background-position: 0 -1856px;}
 .flair-LA2 {background-position: 0 -1920px;}
 
-.flair-Kemp, .flair-Ethier, .flair-Kershaw, .flair-Gordon, .flair-AJEllis, .flair-Gwynn, .flair-Capuano, .flair-Loney, .flair-Jansen, .flair-Giants, .flair-Abreu, .flair-Belisario, .flair-Billingsley, .flair-MEllis, .flair-Guerra, .flair-Harang, .flair-Hairston, .flair-Treanor, .flair-Lindblom, .flair-Rivera, .flair-Mattingly, .flair-Scully, .flair-Kennedy, .flair-Coffey, .flair-Eovaldi, .flair-Lilly, .flair-Cruz, .flair-Elbert, .flair-Robinson, .flair-Asimov, .flair-Fife, .flair-Guerrier, .flair-MacDougal, .flair-Sellers, .flair-VanSlyke, .flair-Wall, .flair-Wright, .flair-Tolleson, .flair-Ramirez, .flair-Victorino, .flair-League, .flair-Blanton, .flair-Sands, .flair-DeLaRosa, .flair-Herrera, .flair-Gonzalez {
+.flair-Kemp, .flair-Ethier, .flair-Kershaw, .flair-Gordon, .flair-AJEllis, .flair-Gwynn, .flair-Capuano, .flair-Loney, .flair-Jansen, .flair-Giants, .flair-Abreu, .flair-Belisario, .flair-Billingsley, .flair-MEllis, .flair-Guerra, .flair-Harang, .flair-Hairston, .flair-Treanor, .flair-Lindblom, .flair-Rivera, .flair-Mattingly, .flair-Scully, .flair-Kennedy, .flair-Coffey, .flair-Eovaldi, .flair-Lilly, .flair-Cruz, .flair-Elbert, .flair-Robinson, .flair-Asimov, .flair-Fife, .flair-Guerrier, .flair-MacDougal, .flair-Sellers, .flair-VanSlyke, .flair-Wall, .flair-Wright, .flair-Tolleson, .flair-Ramirez, .flair-Victorino, .flair-League, .flair-Blanton, .flair-Sands, .flair-DeLaRosa, .flair-Herrera, .flair-Gonzalez, .flair-Punto, .flair-Beckett {
 	background-image: url(%%flair-faces%%);
 	font-size: 0px;
 	height: 30px;
@@ -490,7 +493,7 @@ a[href="/cornelius2"] {
 	border: none !important;
 	border-radius: 0;
 	}
-a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[href="/AJEllis"], a[href="/Gwynn"], a[href="/Capuano"], a[href="/Loney"], a[href="/Jansen"], a[href="/Uribe"], a[href="/Abreu"], a[href="/Belisario"], a[href="/Billingsley"], a[href="/MEllis"], a[href="/Guerra"], a[href="/Harang"], a[href="/Hairston"], a[href="/Treanor"], a[href="/Lindblom"], a[href="/Rivera"], a[href="/Mattingly"], a[href="/Scully"], a[href="/Kennedy"], a[href="/Coffey"], a[href="/Eovaldi"], a[href="/Lilly"], a[href="/Cruz"], a[href="/Elbert"], a[href="/Robinson"], a[href="/Fife"], a[href="/Guerrier"], a[href="/MacDougal"], a[href="/Sellers"], a[href="/VanSlyke"], a[href="/Wall"], a[href="/Wright"], a[href="/Tolleson"], a[href="/Ramirez"], a[href="/Victorino"], a[href="/League"], a[href="/Blanton"], a[href="/Sands"], a[href="/DeLaRosa"], a[href="/Herrera"], a[href="/Gonzalez"] {
+a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[href="/AJEllis"], a[href="/Gwynn"], a[href="/Capuano"], a[href="/Loney"], a[href="/Jansen"], a[href="/Uribe"], a[href="/Abreu"], a[href="/Belisario"], a[href="/Billingsley"], a[href="/MEllis"], a[href="/Guerra"], a[href="/Harang"], a[href="/Hairston"], a[href="/Treanor"], a[href="/Lindblom"], a[href="/Rivera"], a[href="/Mattingly"], a[href="/Scully"], a[href="/Kennedy"], a[href="/Coffey"], a[href="/Eovaldi"], a[href="/Lilly"], a[href="/Cruz"], a[href="/Elbert"], a[href="/Robinson"], a[href="/Fife"], a[href="/Guerrier"], a[href="/MacDougal"], a[href="/Sellers"], a[href="/VanSlyke"], a[href="/Wall"], a[href="/Wright"], a[href="/Tolleson"], a[href="/Ramirez"], a[href="/Victorino"], a[href="/League"], a[href="/Blanton"], a[href="/Sands"], a[href="/DeLaRosa"], a[href="/Herrera"], a[href="/Gonzalez"], a[href="/Punto"], a[href="/Beckett"] {
 	background-image: url(%%flair-faces%%);
 	display: inline-block;
 	font-size: 0px;
@@ -544,6 +547,8 @@ a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[hre
 .flair-DeLaRosa, a[href="/DeLaRosa"] {background-position: 0 -2150px;}
 .flair-Herrera, a[href="/Herrera"] {background-position: 0 -2200px;}
 .flair-Gonzalez, a[href="/Gonzalez"] {background-position: 0 -2250px;}
+.flair-Punto, a[href="/Punto"] {background-position: 0 -2300px;}
+.flair-Beckett, a[href="/Beckett"] {background-position: 0 -2350px;}
 
 /* Reddit Enhancement Suite
 ------------------------------------------------------------------------------ */
@@ -592,3 +597,25 @@ a[href="/TEX"], a[href="/rangers"], a[href="/r/texasrangers"]:empty {background-
 a[href="/TOR"], a[href="/bluejays"], a[href="/r/torontobluejays"]:empty {background-position: 0 -1728px;}
 a[href="/WSH"], a[href="/nationals"], a[href="/r/nationals"]:empty {background-position: 0 -1792px;}
 a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty {background-position: 0 -1856px;}
+
+/* People who have found or been found by Fustrate at a game.
+   This might turn into an "/r/Dodgers Hangout Attendee" thing.
+------------------------------------------------------------------------------ */
+.commentarea a[href$="/tallredhairedguy"]:after,
+.commentarea a[href$="/MikeBabaguh"]:after,
+.commentarea a[href$="/poorasian"]:after,
+.commentarea a[href$="/postslikeagirl"]:after,
+.commentarea a[href$="/LazerBearz"]:after,
+.commentarea a[href$="/kustomdeluxe"]:after,
+.commentarea a[href$="/ejrizo"]:after,
+.commentarea a[href$="/Hangoverman"]:after,
+.commentarea a[href$="/daringescape"]:after,
+.commentarea a[href$="/nogray"]:after,
+.commentarea a[href$="/Dualclassgeek"]:after,
+.commentarea a[href$="/troxellophilus"]:after {
+	content: " ⚾";
+	font-size: 1.1em;
+}
+#authorInfoToolTip a:after {
+	content: "" !important;
+}

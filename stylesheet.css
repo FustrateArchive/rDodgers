@@ -613,8 +613,12 @@ a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty {background-posit
 .commentarea a[href$="/nogray"]:after,
 .commentarea a[href$="/Dualclassgeek"]:after,
 .commentarea a[href$="/troxellophilus"]:after {
-	content: " ⚾";
-	font-size: 1.1em;
+	display: inline-block;
+	content: "  ";
+	background: url(%%macros-misc%%);
+	width: 19px;
+	height: 15px;
+	background-position: 4px -100px;
 }
 #authorInfoToolTip a:after {
 	content: "" !important;

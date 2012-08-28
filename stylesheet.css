@@ -600,6 +600,7 @@ a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty {background-posit
 
 /* People who have found or been found by Fustrate at a game.
    This might turn into an "/r/Dodgers Hangout Attendee" thing.
+   Note to anyone editing this: it's case sensitive!
 ------------------------------------------------------------------------------ */
 .commentarea a[href$="/Tallredhairedguy"]:after,
 .commentarea a[href$="/MikeBabaguh"]:after,
@@ -625,5 +626,5 @@ a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty {background-posit
 	background-position: 4px -100px;
 	}
 #authorInfoToolTip a:after {
-	content: "" !important;
+	display: none;
 	}

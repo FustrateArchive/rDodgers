@@ -601,7 +601,7 @@ a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty {background-posit
 /* People who have found or been found by Fustrate at a game.
    This might turn into an "/r/Dodgers Hangout Attendee" thing.
 ------------------------------------------------------------------------------ */
-.commentarea a[href$="/tallredhairedguy"]:after,
+.commentarea a[href$="/Tallredhairedguy"]:after,
 .commentarea a[href$="/MikeBabaguh"]:after,
 .commentarea a[href$="/poorasian"]:after,
 .commentarea a[href$="/postslikeagirl"]:after,
@@ -614,14 +614,16 @@ a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty {background-posit
 .commentarea a[href$="/Dualclassgeek"]:after,
 .commentarea a[href$="/troxellophilus"]:after,
 .commentarea a[href$="/stacks85"]:after,
-.commentarea a[href$="/twoforme_noneforyou"]:after {
+.commentarea a[href$="/twoforme_noneforyou"]:after,
+/* Honorable mention for being so darn close... */
+.commentarea a[href$="/graysinn"]:after {
 	display: inline-block;
 	content: "  ";
 	background: url(%%macros-misc%%);
 	width: 19px;
 	height: 15px;
 	background-position: 4px -100px;
-}
+	}
 #authorInfoToolTip a:after {
 	content: "" !important;
-}
+	}

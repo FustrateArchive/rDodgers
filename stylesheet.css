@@ -612,7 +612,9 @@ a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty {background-posit
 .commentarea a[href$="/daringescape"]:after,
 .commentarea a[href$="/nogray"]:after,
 .commentarea a[href$="/Dualclassgeek"]:after,
-.commentarea a[href$="/troxellophilus"]:after {
+.commentarea a[href$="/troxellophilus"]:after,
+.commentarea a[href$="/stacks85"]:after,
+.commentarea a[href$="/twoforme_noneforyou"]:after {
 	display: inline-block;
 	content: "  ";
 	background: url(%%macros-misc%%);

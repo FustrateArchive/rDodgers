@@ -619,6 +619,7 @@ a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty {background-posit
 /* People who have found or been found by ejrizo at a game.
 ------------------------------------------------------------------------------ */
 .commentarea a[href$="/PerilousPancakes"]:after,
+.commentarea a[href$="/Fustrate"]:after,
 /* Honorable mention for being so darn close... */
 .commentarea a[href$="/graysinn"]:after {
 	display: inline-block;

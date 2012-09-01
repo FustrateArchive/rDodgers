@@ -613,14 +613,19 @@ a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty {background-posit
 .commentarea a[href$="/daringescape"]:after,
 .commentarea a[href$="/nogray"]:after,
 .commentarea a[href$="/Dualclassgeek"]:after,
-.commentarea a[href$="/troxellophilus"]:after,
-.commentarea a[href$="/stacks85"]:after,
-.commentarea a[href$="/twoforme_noneforyou"]:after,
 /* People who have found or been found by ejrizo at a game.
 ------------------------------------------------------------------------------ */
 .commentarea a[href$="/PerilousPancakes"]:after,
 .commentarea a[href$="/Fustrate"]:after,
-/* Honorable mention for being so darn close... */
+/* The awesome people who took matters into their own hands.
+------------------------------------------------------------------------------ */
+.commentarea a[href$="/troxellophilus"]:after,
+.commentarea a[href$="/stacks85"]:after,
+.commentarea a[href$="/twoforme_noneforyou"]:after,
+.commentarea a[href$="/bryanplayspiano"]:after,
+.commentarea a[href$="/Onlysonof"]:after,
+/* Honorable mention for being so darn close...
+------------------------------------------------------------------------------ */
 .commentarea a[href$="/graysinn"]:after {
 	display: inline-block;
 	content: "  ";

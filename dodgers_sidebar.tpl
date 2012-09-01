@@ -32,10 +32,10 @@ Date|Team|Result
 ## Official Links
 
 * [Dodgers.com](http://www.dodgers.com)
-* [Dodgers Facebook Page](https://www.facebook.com/Dodgers)
-* [Dodgers Twitter Page](http://twitter.com/Dodgers)
+* [Facebook](https://www.facebook.com/Dodgers)
+* [Twitter](http://twitter.com/Dodgers)
 
-## Player Twitter Accounts
+## Twitter Accounts
 
 * [Josh Beckett](http://twitter.com/beck19bb)
 * [Todd Coffey](http://twitter.com/ToddCoffey60)
@@ -53,14 +53,14 @@ Date|Team|Result
 * [Hanley Ramirez](http://twitter.com/HanleyRamirez)
 * [Shane Victorino](http://twitter.com/ShaneVictorino)
 
-## Other Twitter Accounts
+---
 
 * [Ken Gurnick](http://twitter.com/kengurnick)
 * [Jaime Jarrin](http://twitter.com/JaimeJarrinHOF)
 * [Magic Johnson](http://twitter.com/MagicJohnson)
 * [Tommy Lasorda](http://twitter.com/TommyLasorda)
 * [Steve Lyons](http://twitter.com/SteveLyons12)
-* [Pepe Yñiguez](http://twitter.com/PepeYniguez)
+* [Pepe Yniguez](http://twitter.com/PepeYniguez)
 
 ## Dodger News
 
@@ -87,13 +87,13 @@ Date|Team|Result
 
 ## Related subreddits
 
-* [/r/baseball](/r/baseball/)
-* [/r/lakers](/r/lakers/)
-* [/r/laclippers](/r/laclippers/)
-* [/r/lagalaxy](/r/lagalaxy/)
-* [/r/losangeleskings](/r/losangeleskings/)
-* [/r/losangeles](/r/losangeles/)
-* [/r/CityOfLA](/r/CityOfLA/)
+* [Baseball](/r/baseball/)
+* [Lakers](/r/lakers/)
+* [Clippers](/r/laclippers/)
+* [Galaxy](/r/lagalaxy/)
+* [Kings](/r/losangeleskings/)
+* [Los Angeles](/r/losangeles/)
+* [City Of LA](/r/CityOfLA/)
 
 ---
 

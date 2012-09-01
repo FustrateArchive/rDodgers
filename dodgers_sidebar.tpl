@@ -35,10 +35,11 @@ Date|Team|Result
 * [Dodgers Facebook Page](https://www.facebook.com/Dodgers)
 * [Dodgers Twitter Page](http://twitter.com/Dodgers)
 
-## Dodger Twitter Accounts
+## Player Twitter Accounts
 
 * [Josh Beckett](http://twitter.com/beck19bb)
 * [Todd Coffey](http://twitter.com/ToddCoffey60)
+* [Carl Crawford](http://twitter.com/CarlCrawford_)
 * [Luis Cruz](http://twitter.com/CochitoCruz)
 * [Adrian Gonzalez](http://twitter.com/adriangon28)
 * [Dee Gordon](http://twitter.com/skinnyswag9)
@@ -51,8 +52,15 @@ Date|Team|Result
 * [Nick Punto](http://twitter.com/Shredderpunto)
 * [Hanley Ramirez](http://twitter.com/HanleyRamirez)
 * [Shane Victorino](http://twitter.com/ShaneVictorino)
+
+## Other Twitter Accounts
+
+* [Ken Gurnick](http://twitter.com/kengurnick)
+* [Jaime Jarrin](http://twitter.com/JaimeJarrinHOF)
 * [Magic Johnson](http://twitter.com/MagicJohnson)
 * [Tommy Lasorda](http://twitter.com/TommyLasorda)
+* [Steve Lyons](http://twitter.com/SteveLyons12)
+* [Pepe Yñiguez](http://twitter.com/PepeYniguez)
 
 ## Dodger News
 

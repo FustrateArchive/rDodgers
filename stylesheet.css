@@ -435,6 +435,21 @@ a[href="/cornelius2"] {
 	background-position: 0 0;
 	}
 
+.flair-DodgerAlien,
+.flair-DodgerAlien {
+	background-image: url(%%flair-dodgeralien%%);
+	height: 30px;
+	width: 30px;
+	margin-right: 2px;
+	vertical-align: bottom;
+	padding: 0;
+	border: none !important;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-bottom: 2px;
+	font-size: 0;
+	}
+
 .flair-ANA,.flair-ARI, .flair-ATL, .flair-BOS, .flair-CHC, .flair-CIN, .flair-CLE, .flair-COL, .flair-CHW, .flair-DET, .flair-MIA, .flair-HOU, .flair-KC, .flair-LA, .flair-MIL, .flair-MIN, .flair-NYM, .flair-NYY, .flair-OAK, .flair-PHI, .flair-PIT, .flair-SD, .flair-SEA, .flair-LOL, .flair-STL, .flair-TB, .flair-TEX, .flair-TOR, .flair-WSH, .flair-BAL, .flair-LA2 {
 	background-image: url(%%flair-teams%%);
 	font-size: 0px;

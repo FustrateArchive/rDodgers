@@ -565,6 +565,13 @@ a[href="/Kemp"], a[href="/Ethier"], a[href="/Kershaw"], a[href="/Gordon"], a[hre
 .flair-Punto, a[href="/Punto"] {background-position: 0 -2300px;}
 .flair-Beckett, a[href="/Beckett"] {background-position: 0 -2350px;}
 
+.flair-banned {
+	background: black;
+	color: white;
+	padding: 1px 4px;
+	font-size: 0.9em;
+	}
+
 /* Reddit Enhancement Suite
 ------------------------------------------------------------------------------ */
 #RESShortcutsEditContainer {

@@ -231,8 +231,8 @@ div.entry p.title a.title:visited {
 	color: #ea9a3d;
 	}
 /* Special styles for topics starting with "Game Chat" */
-div.entry p.title a[href*="/game_chat_"].title:link,
-div.entry p.title a[href*="/game_chat_"].title:visited {
+div.self div.entry p.title a[href*="/game_chat_"].title:link,
+div.self div.entry p.title a[href*="/game_chat_"].title:visited {
 	color: red;
 	font-size: 115%;
 	}

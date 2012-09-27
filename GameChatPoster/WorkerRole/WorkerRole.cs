@@ -14,7 +14,6 @@ namespace GameChatPoster
         public override void Run()
         {
             Trace.WriteLine("$projectname$ entry point called", "Information");
-
             var config = new Configuration();
             while (true)
             {
@@ -35,12 +34,12 @@ namespace GameChatPoster
                     if (hourBeforeGameTime.Date.CompareTo(DateTime.Today.Date) == 0)
                     {
                         int compare = hourBeforeGameTime.CompareTo(DateTime.Now);
-                        if (compare < 1)  // within n hours of the game (n hours read from config)
+                        if (compare < 1)  // within three hours of the game (# hours read from config)
                         {
                             // POST!
                             Trace.WriteLine("Creating new post: " + game, "Information");
                             var api = new RedditAPI(config.GetSetting(Configuration.REDDIT_USER), config.GetSetting(Configuration.REDDIT_PASSWORD));
-                            api.PostSelf("", game.ToString(), config.GetSetting(Configuration.SUBREDDIT));
+                            api.PostSelf(game.SelfText, game.ToString(), config.GetSetting(Configuration.SUBREDDIT));
                             game.Posted = "true";
                             GameDayEntries.UpdateEntry(game);
                             continue;
@@ -64,11 +63,12 @@ namespace GameChatPoster
             foreach (var game in games)
             {
                 var gameSplit = game.Split(',');
-                var gameDayEntry = new GameDayEntry(count, gameSplit[0], gameSplit[1], gameSplit[3], gameSplit[5], (gameSplit.Length == 18) ? "true" : "false");
+                var gameDayEntry = new GameDayEntry(count, gameSplit[0], gameSplit[1], gameSplit[3], gameSplit[5], (gameSplit.Length == 18) ? "true" : "false", "", "");
                 Trace.WriteLine(gameDayEntry);
                 count++;
                 var tableServiceContext = Helpers.TableStorage.GetTableServiceContext("GameDayEntries");
                 Helpers.TableStorage.AddEntity(gameDayEntry, "GameDayEntries");
+
             }
         }
 
@@ -86,6 +86,7 @@ namespace GameChatPoster
             //dmc.Logs.ScheduledTransferPeriod = TimeSpan.FromHours(1);
             //dmc.Logs.ScheduledTransferLogLevelFilter = LogLevel.Verbose;
             //DiagnosticMonitor.Start("DiagnosticsConnectionString", dmc); 
+
 
             return base.OnStart();
         }

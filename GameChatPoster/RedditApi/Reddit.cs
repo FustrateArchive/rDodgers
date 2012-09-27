@@ -10,14 +10,13 @@
 
     public class RedditAPI
     {
+
         CookieContainer redditCookie;
         WebClient jsonGet;
-
         //A cache of me.json, since we likely don't need to retrieve it every time we use it
         Hashtable me;
         string usr;
         string cookiefn;
-
         /// <summary>
         /// Class constructor, logs in or checks for previous login from cookie file
         /// </summary>
@@ -235,10 +234,13 @@
         /// <param name="link">Text of the self post</param>
         /// <param name="title">Title of submission</param>
         /// <param name="sr">Subreddit to post to</param>
-        public void PostSelf(string text, string title, string sr)
+        public bool PostSelf(string text, string title, string sr)
         {
-
-            Post("self", text, sr, title);
+            string kind = "self";
+            string modhash = (string)me["modhash"];
+            SendPOST(string.Format("uh={0}&kind={1}&text={2}&sr={3}&title={4}", (string)me["modhash"], kind, text, sr, title),
+                    "http://www.reddit.com/api/submit");
+            return true;
         }
 
         /// <summary>

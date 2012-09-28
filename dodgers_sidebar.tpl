@@ -5,6 +5,7 @@ Team|W|L|PCT|GB
 {%- for team in standings %}
 []({{ team.subreddit }})|{{ team.wins }}|{{ team.losses }}|{{ team.percent }}|{{ team.games_back }}
 {%- endfor %}
+^(WIP, this isn't right yet)
 
 *Last Update: {{ now|datetime("%m/%d/%y at %I:%M %p") }}*
 

@@ -1,4 +1,4 @@
-## NL West Standings
+## Wildcard #2 Standings
 
 Team|W|L|PCT|GB
 :-:|:-:|:-:|:-:|:-:

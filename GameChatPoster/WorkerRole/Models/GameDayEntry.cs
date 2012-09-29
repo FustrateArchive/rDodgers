@@ -44,53 +44,98 @@
             return string.Format("Game chat: {0}/{1} {2} {3}", start.Month, start.Day, Teams, string.Format("{0:t}", StartTime));
         }
 
-        public string SelfText
+        /// <summary>
+        /// Formats the self test - currently contains todays broadcast and starting pitchers
+        /// </summary>
+        /// <returns>Mark down formatted self text</returns>
+        public string GetSelfText()
         {
-            get
+            var selfText = new StringBuilder();
+
+            //broadcast
+            if (!string.IsNullOrEmpty(this.Broadcast))
             {
-                var selfText = new StringBuilder();
+                var prepareBroadcastString = this.Broadcast.Replace("-----", "/");
+                prepareBroadcastString = prepareBroadcastString.Replace(" --", ",");
+                prepareBroadcastString = prepareBroadcastString.Trim('"');
 
-                //broadcast
-                if (!string.IsNullOrEmpty(this.Broadcast))
+                var split = prepareBroadcastString.Split('/');
+                selfText.AppendLine(split[0]);
+
+                if (split.Length == 2)
                 {
-                    var prepareBroadcastString = this.Broadcast.Replace("-----", "/");
-                    prepareBroadcastString = prepareBroadcastString.Replace(" --", ",");
-                    prepareBroadcastString = prepareBroadcastString.Trim('"');
-
-                    var split = prepareBroadcastString.Split('/');
-                    selfText.AppendLine(split[0]);
-
-                    if (split.Length == 2)
-                    {
-                        selfText.AppendLine();
-                        selfText.AppendLine(split[1]);
-                    }
+                    selfText.AppendLine();
+                    selfText.AppendLine(split[1]);
                 }
-
-                selfText.AppendLine();
-                selfText.AppendLine();
-
-                //pitchers
-                if (!string.IsNullOrEmpty(this.DodgersPitcher) && !string.IsNullOrEmpty(this.OtherPitcher))
-                {
-                    var pitchers = string.Empty;
-
-                    var teams = this.Teams.Split(' ');
-                    var dodgerPitcherSplit = this.DodgersPitcher.Split(' ');
-                    var otherPitcherSplit = this.OtherPitcher.Split(' ');
-                    if (teams[0].Equals("Dodgers"))
-                    {
-                        pitchers = string.Format("**{0}** {1} vs **{2}** {3}", dodgerPitcherSplit[0], dodgerPitcherSplit[1], otherPitcherSplit[0], otherPitcherSplit[1]);
-                    }
-                    else
-                    {
-                        pitchers = string.Format("**{0}** {1} vs **{2}** {3}", otherPitcherSplit[0], otherPitcherSplit[1], dodgerPitcherSplit[0], dodgerPitcherSplit[1]);
-                    }
-                    selfText.AppendLine(pitchers);
-                }
-
-                return selfText.ToString();
             }
+
+            selfText.AppendLine();
+            selfText.AppendLine();
+
+            //pitchers
+            var dodgersPitcherName = string.Empty;
+            var dodgerPitcherRecord = string.Empty;
+
+            var otherPitcherName = string.Empty;
+            var otherPitcherRecord = string.Empty;
+
+            // try to get the pitcher name and records from the entry.  if there is a problem, drop the pitchers altogether
+            if (this.TryGetPitcherNameAndRecord(this.DodgersPitcher, out dodgersPitcherName, out dodgerPitcherRecord) &&
+                this.TryGetPitcherNameAndRecord(this.OtherPitcher, out otherPitcherName, out otherPitcherRecord))
+            {
+                var pitchers = string.Empty;
+                var teams = this.Teams.Split(' ');
+                if (teams[0].Equals("Dodgers"))
+                {
+                    pitchers = string.Format("**{0}** {1} vs **{2}** {3}", dodgersPitcherName, dodgerPitcherRecord, otherPitcherName, otherPitcherRecord);
+                }
+                else
+                {
+                    pitchers = string.Format("**{0}** {1} vs **{2}** {3}", otherPitcherName, otherPitcherRecord, dodgersPitcherName, dodgerPitcherRecord);
+                }
+                selfText.AppendLine(pitchers);
+            }
+            return selfText.ToString();
+        }
+
+        /// <summary>
+        /// Separates the pitcher from their record
+        /// </summary>
+        /// <param name="pitcherEntry">Pitcher entry</param>
+        /// <param name="pitcherName">Pitcher name</param>
+        /// <param name="pitcherRecord">Pitcher record</param>
+        /// <returns></returns>
+        private bool TryGetPitcherNameAndRecord(string pitcherEntry, out string pitcherName, out string pitcherRecord)
+        {
+            pitcherName = string.Empty;
+            pitcherRecord = string.Empty;
+
+            if (string.IsNullOrEmpty(pitcherEntry))
+            {
+                return false;
+            }
+
+            var pitcherEntrySplit = pitcherEntry.Split(' ');
+
+            pitcherName = pitcherEntrySplit[0];
+            // "de la rosa" 
+            for (int i = 1; i < pitcherEntrySplit.Length - 1; i++)
+            {
+                pitcherName += " " + pitcherEntrySplit[i];
+            }
+
+            if (pitcherEntrySplit.Length > 1)
+            {
+                pitcherRecord = pitcherEntrySplit[pitcherEntrySplit.Length - 1];
+                if (!pitcherRecord.StartsWith("("))
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
     }
+
+    
 }

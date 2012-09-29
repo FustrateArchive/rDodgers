@@ -36,6 +36,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+<Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\HtmlAgilityPack.1.4.6\lib\Net40\HtmlAgilityPack.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.WindowsAzure.Configuration, Version=1.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.WindowsAzure.ConfigurationManager.1.7.0.0\lib\net35-full\Microsoft.WindowsAzure.Configuration.dll</HintPath>
     </Reference>
@@ -56,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Models\ConfigEntry.cs" />
     <Compile Include="Models\Configuration.cs" />
+    <Compile Include="Models\EspnGameDay.cs" />
     <Compile Include="Models\GameDayEntries.cs" />
     <Compile Include="Models\GameDayEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
     using System.Linq;
-
+    
     class GameDayEntries
     {
         private const string TableName = "GameDayEntries";
@@ -41,11 +41,11 @@
             entryToUpdate.StartTime = entry.StartTime;
             entryToUpdate.Teams = entry.Teams;
             entryToUpdate.Posted = entry.Posted;
+            entryToUpdate.DodgersPitcher = entry.DodgersPitcher;
+            entryToUpdate.OtherPitcher = entryToUpdate.OtherPitcher;
 
             tableServiceContext.UpdateObject(entryToUpdate);
             tableServiceContext.SaveChangesWithRetries();
         }
-
-        
     }
 }

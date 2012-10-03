@@ -646,6 +646,8 @@ a[href="/BAL"], a[href="/orioles"], a[href="/r/orioles"]:empty {background-posit
 .commentarea a[href$="/twoforme_noneforyou"]:after,
 .commentarea a[href$="/bryanplayspiano"]:after,
 .commentarea a[href$="/Onlysonof"]:after,
+.commentarea a[href$="/DrGirthinstein"]:after,
+.commentarea a[href$="/someteochewguy"]:after,
 /* Honorable mention for being so darn close...
 ------------------------------------------------------------------------------ */
 .commentarea a[href$="/graysinn"]:after {
